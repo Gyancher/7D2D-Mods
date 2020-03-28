@@ -1,0 +1,61 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="Power Elevator Metal">
+			<property name="Class" value="PoweredDoor"/>			
+			<property name="CustomIcon" value="Elevator" />
+			<property name="Material" value="Mmetal"/>
+			<property name="PassThroughDamage" value="true"/>
+		    <property name="LightOpacity" value="1"/>
+			<property name="Collide" value="movement,melee,rocket,bullet" />
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/ElevatorNoSDX.unity3d?BasicElevatorPrefab" />
+			<property name="DisplayType" value="blockElectrical"/>
+			<property name="MultiBlockDim" value="3,11,3"/>
+			<property name="MaxDamage" value="21000"/>
+			<property name="Tag" value="Door"/>
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="Place" value="Door"/>
+			<property name="RequiredPower" value="5"/>
+			<property name="OnlySimpleRotations" value="false"/>
+			<property name="Stabilitysupport" value="true"/>
+			<property name="OpenSound" value="open_door_wood" />
+			<property name="CloseSound" value="close_door_wood" />
+			<property name="ImposterExchange" value="imposterBlock" param1="9"/>
+			<property class="RepairItems"><property name="resourceForgedIron" value="20" /></property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>      
+			<property name="Group" value="Building,Science"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,poweredDoorsSchematic"/>
+		</block>
+			<block name="Basic Elevator">
+			<property name="Class" value="DoorSecure"/>			
+			<property name="CustomIcon" value="Elevator" /> 
+			<property name="Material" value="Mwood_regular"/>
+			<property name="PassThroughDamage" value="true"/>
+		    <property name="LightOpacity" value="1"/>
+			<property name="Collide" value="movement,melee,rocket,bullet" />
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/ElevatorNoSDX.unity3d?BasicElevatorPrefab" />
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="3,11,3"/>
+			<property name="Tag" value="Door"/>
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="Place" value="Door"/>
+			<property name="OnlySimpleRotations" value="false"/>
+			<property name="Stabilitysupport" value="true"/>
+			<property name="OpenSound" value="open_door_wood" />
+			<property name="CloseSound" value="close_door_wood" />	
+			<property name="ImposterExchange" value="imposterBlock" param1="9"/>
+			<property class="RepairItems"><property name="resourceWood" value="20" /></property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceWood" count="1,3" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceWood" count="1,15"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>      
+			<property name="Group" value="Building,Science"/>
+		</block>
+		
+
+	</append>
+</configs>
