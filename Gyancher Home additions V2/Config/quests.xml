@@ -1,0 +1,17 @@
+<config name="quests">	
+		<append xpath="/quests">
+			<!-- MANUX Admin Tools: get skill points quests -->
+			<quest id="adminskill5" name_key="5 Skill Points" subtitle_key="5 Skill Points" description_key="5 Admin Skill Points for Testing" icon="misc_crafting"  repeatable="true" category_key="challenge" difficulty="easy">
+				<reward type="SkillPoints" value="5"/>
+			</quest>
+			<quest id="adminskill15" name_key="15 Skill Points" subtitle_key="15 Skill Points" description_key="15 Admin Skill Points for Testing" icon="misc_crafting"  repeatable="true" category_key="challenge" difficulty="easy">
+				<reward type="SkillPoints" value="15"/>
+			</quest>
+			<quest id="adminskill25" name_key="25 Skill Points" subtitle_key="25 Skill Points" description_key="25 Admin Skill Points for Testing" icon="misc_crafting"  repeatable="true" category_key="challenge" difficulty="easy">
+				<reward type="SkillPoints" value="25"/>
+			</quest>
+			<quest id="adminskill50" name_key="50 Skill Points" subtitle_key="50 Skill Points" description_key="50 Admin Skill Points for Testing" icon="misc_crafting"  repeatable="true" category_key="challenge" difficulty="easy">
+				<reward type="SkillPoints" value="50"/>
+			</quest>
+		</append>
+	</config>

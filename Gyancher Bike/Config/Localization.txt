@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English
+manux_vehicleQuadPlaceable,vehicles,item,EnChanged,Manux's Quad,,,,,
+manux_vehicleQuad,vehicles,vehicle,EnChanged,Manux's Quad,,,,,
+manux_vehicleQuadDesc,vehicles,vehicle,EnChanged,What would be the Apocalypse without a Quad.,,,,,
+manux_vehicleMonsterBeetle,vehicles,vehicle,EnChanged,Manux's Monster Beetle,,,,,
+manux_vehicleMonsterBeetlePlaceable,vehicles,vehicle,EnChanged,Manux's Monster Beetle,,,,,
+manux_vehicleMonsterBeetleDesc,vehicles,vehicle,EnChanged,"Big, Fast, Strong, and Deadly. It even hops. A King's Ride!",,,,,

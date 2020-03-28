@@ -1,0 +1,39 @@
+<configs>
+	<append xpath="/item_modifiers" >
+			
+		<item_modifier name="CamPanSm0" installable_tags="head" blocked_tags="clothing" modifier_tags="cam" type="attachment" rarity="0.5">
+			<property name="Material" value="Mmetal"/>
+			<property name="Class" value="Switch"/>		
+			<property name="DisplayType" value="blockElectrical" />
+			<property name="RequiredPower" value="0"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="TriggerType" value="Switch"/> 
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Path" value="solid"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="OnlySimpleRotations" value="true"/> 
+			<property name="CanPickup" value="true" /> 
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceMetalPipe" count="4,8" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="2,5" tag="allHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="2,5"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="DescriptionKey" value="CCTV_CamDesc"/> 
+			<property name="Shape" value="ModelEntity" /> <!-- Free model by gromorg -->
+			<property name="Model" value="#@modfolder:Resources/CCTVCamV3.unity3d?CCTVCamPrefab" />
+			<property name="CustomIcon" value="modHelmetCam"/>
+			<property name="CustomIconTint" value="110,173,255" />
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="HasLights" value="true" />
+			<property name="InterfaceDisabled" value="false" />
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="HelmetCam1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="HelmetCam1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="HelmetCam1"/>
+			</effect_group>	
+		</item_modifier>
+	
+	</append>
+</configs>

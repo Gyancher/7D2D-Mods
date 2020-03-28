@@ -1,0 +1,95 @@
+<configs>
+	<append xpath="/progression">
+
+		<skills min_level="1" max_level="100" base_exp_cost="954" cost_multiplier_per_level="1.0149" max_level_ratio_to_parent="10">
+			<skill name="skillMarksmanship" parent="attPerception" name_key="skillattPerceptionName" desc_key="skillattPerceptionDesc" icon="ui_game_symbol_archery">
+				<effect_group>
+					<passive_effect name="IncrementalSpreadMultiplier" operation="perc_subtract" level="1,100" value="0.0,0.5"/>
+				</effect_group>
+			</skill>
+			
+			<skill name="skillArcticSurvival" parent="attBooks" name_key="perkArcticSurvival0Name" desc_key="perkArcticSurvival0Desc" long_desc_key="perkBookGroupLongDesc" icon="ui_game_shape_cube"><effect_group/></skill>
+			<skill name="skillBearHunter" parent="attBooks" name_key="perkBearHunter0Name" desc_key="perkBearHunter0Desc" long_desc_key="perkBookGroupLongDesc" icon="ui_game_shape_cube"><effect_group/></skill>-->
+		</skills>
+
+		<perk name="perkChargingBull" parent="skillStrengthGeneral" name_key="perkChargingBullName" desc_key="perkChargingBullDesc" icon="ui_game_symbol_bull">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="1" desc_key="reqStrengthLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="3" desc_key="reqStrengthLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="5" desc_key="reqStrengthLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="7" desc_key="reqStrengthLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="10" desc_key="reqStrengthLevel10"/></level_requirements>
+
+			<effect_group>
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,5" value="0.2,0.4" tags="melee,running"/>
+				<passive_effect name="HealthLoss" operation="perc_subtract" level="3,5" value="0.15,0.25" tags="running"/>
+
+				<effect_description level="1" desc_key="perkChargingBullRank1Desc" long_desc_key="perkChargingBullRank1LongDesc" />
+				<effect_description level="2" desc_key="perkChargingBullRank2Desc" long_desc_key="perkChargingBullRank2LongDesc" />
+				<effect_description level="3" desc_key="perkChargingBullRank3Desc" long_desc_key="perkChargingBullRank3LongDesc" />
+				<effect_description level="4" desc_key="perkChargingBullRank4Desc" long_desc_key="perkChargingBullRank4LongDesc" />
+				<effect_description level="5" desc_key="perkChargingBullRank5Desc" long_desc_key="perkChargingBullRank5LongDesc" />
+			</effect_group>
+		</perk>
+
+		
+		<perk name="perkArcticSurvivalCold" parent="skillArcticSurvival" max_level="1" base_skill_point_cost="0" desc_key="perkArcticSurvivalColdDesc" long_desc_key="perkArcticSurvivalColdLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		<perk name="perkArcticSurvivalStews" parent="skillArcticSurvival" max_level="1" base_skill_point_cost="0" desc_key="perkArcticSurvivalStewsDesc" long_desc_key="perkArcticSurvivalStewsLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		<perk name="perkArcticSurvivalSnowShoes" parent="skillArcticSurvival" max_level="1" base_skill_point_cost="0" desc_key="perkArcticSurvivalSnowShoesDesc" long_desc_key="perkArcticSurvivalSnowShoesLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		<perk name="perkArcticSurvivalIce" parent="skillArcticSurvival" max_level="1" base_skill_point_cost="0" desc_key="perkArcticSurvivalIceDesc" long_desc_key="perkArcticSurvivalIceLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		<perk name="perkArcticSurvivalSnowZombies" parent="skillArcticSurvival" max_level="1" base_skill_point_cost="0" desc_key="perkArcticSurvivalSnowZombiesDesc" long_desc_key="perkArcticSurvivalSnowZombiesLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		<perk name="perkArcticSurvivalForage" parent="skillArcticSurvival" max_level="1" base_skill_point_cost="0" desc_key="perkArcticSurvivalForageDesc" long_desc_key="perkArcticSurvivalForageLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		<perk name="perkArcticSurvivalComplete" parent="skillArcticSurvival" max_level="1" base_skill_point_cost="0" desc_key="perkArcticSurvivalCompleteDesc" long_desc_key="perkArcticSurvivalCompleteLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkBearHunterDamage" parent="skillBearHunter" max_level="1" base_skill_point_cost="0" desc_key="perkBearHunterDamageDesc" long_desc_key="perkBearHunterDamageLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		<perk name="perkBearHunterHarvest" parent="skillBearHunter" max_level="1" base_skill_point_cost="0" desc_key="perkBearHunterHarvestDesc" long_desc_key="perkBearHunterHarvestLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		<perk name="perkBearHunterDefense" parent="skillBearHunter" max_level="1" base_skill_point_cost="0" desc_key="perkBearHunterDefenseDesc" long_desc_key="perkBearHunterDefenseLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		<perk name="perkBearHunterClaws" parent="skillBearHunter" max_level="1" base_skill_point_cost="0" desc_key="perkBearHunterClawsDesc" long_desc_key="perkBearHunterClawsLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		<perk name="perkBearHunterFurCoat" parent="skillBearHunter" max_level="1" base_skill_point_cost="0" desc_key="perkBearHunterFurCoatDesc" long_desc_key="perkBearHunterFurCoatLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		<perk name="perkBearHunterBearoids" parent="skillBearHunter" max_level="1" base_skill_point_cost="0" desc_key="perkBearHunterBearoidsDesc" long_desc_key="perkBearHunterBearoidsLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		<perk name="perkBearHunterComplete" parent="skillBearHunter" max_level="1" base_skill_point_cost="0" desc_key="perkBearHunterCompleteDesc" long_desc_key="perkBearHunterCompleteLongDesc">
+			<effect_group>
+			</effect_group>
+		</perk>
+		
+		
+	</append>
+</configs>

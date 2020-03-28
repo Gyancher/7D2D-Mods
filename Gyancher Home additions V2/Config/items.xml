@@ -1,0 +1,379 @@
+<configs>
+		<append xpath="/items">	
+	
+<item name="DFtechPhysical">
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="drugSteroids" />
+	<property name="CustomIconTint" value="AAB411"/>
+	<property name="DescriptionKey" value="DFtechPhysicalDesc"/>
+	<property name="HoldType" value="16"/>
+	<property name="Meshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="EconomicValue" value="80"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Stacknumber" value="5"/> <!-- STK loot -->
+	<property name="UnlockedBy" value="perkCraftFutureTech"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+	</property>
+	<property name="Group" value="Science"/>
+	<effect_group tiered="false">
+		<requirement name="ProgressionLevel" progression_name="perkBulletSponge" operation="LT" value="1"/>
+		<requirement name="ProgressionLevel" progression_name="perkGottaGoFast" operation="LT" value="1"/>
+		<requirement name="ProgressionLevel" progression_name="perkEnhancedImmuneSystem" operation="LT" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffPhysicalConditioningLvlUp"/>
+	</effect_group>
+</item>
+	
+	<item name="DFbioGoFast">
+	<property name="Extends" value="DFtechPhysical"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="drugSteroids" />
+	<property name="CustomIconTint" value="DF8D26"/>
+	<property name="DescriptionKey" value="DFbioGoFastDesc"/>
+	<property name="Stacknumber" value="5"/> <!-- STK loot -->
+	<property name="UnlockedBy" value="perkCraftFutureTech"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+	</property>
+	<effect_group tiered="false">
+		<requirement name="ProgressionLevel" progression_name="perkPhysicalConditioning" operation="LT" value="1"/>
+		<requirement name="ProgressionLevel" progression_name="perkOxygenOptimization" operation="LT" value="1"/>
+		<requirement name="ProgressionLevel" progression_name="perkAcceleratedHealing" operation="LT" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffGottaGoFastLvlUp"/>
+	</effect_group>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group" value="Science"/>
+</item>
+
+<item name="DFbioImmune">
+	<property name="Extends" value="DFtechPhysical"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="drugSteroids" />
+	<property name="CustomIconTint" value="400251"/>
+	<property name="DescriptionKey" value="DFbioImmuneDesc"/>
+	<property name="Stacknumber" value="5"/> <!-- STK loot -->
+	<property name="UnlockedBy" value="perkCraftFutureTech"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+	</property>
+	<effect_group tiered="false">
+		<requirement name="ProgressionLevel" progression_name="perkPhysicalConditioning" operation="LT" value="1"/>
+		<requirement name="ProgressionLevel" progression_name="perkOxygenOptimization" operation="LT" value="1"/>
+		<requirement name="ProgressionLevel" progression_name="perkAcceleratedHealing" operation="LT" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffEnhancedImmuneSystemLvlUp"/>
+	</effect_group>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group" value="Science"/>
+</item>
+
+
+<item name="DFtechOxygen">
+	<property name="Extends" value="DFtechPhysical"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="drugSteroids" />
+	<property name="CustomIconTint" value="201BB0"/>
+	<property name="DescriptionKey" value="DFtechOxygenDesc"/>
+	<property name="Stacknumber" value="5"/> <!-- STK loot -->
+	<property name="UnlockedBy" value="perkCraftFutureTech"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+	</property>
+	<effect_group tiered="false">
+		<requirement name="ProgressionLevel" progression_name="perkBulletSponge" operation="LT" value="1"/>
+		<requirement name="ProgressionLevel" progression_name="perkGottaGoFast" operation="LT" value="1"/>
+		<requirement name="ProgressionLevel" progression_name="perkEnhancedImmuneSystem" operation="LT" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffOxygenOptimizationLvlUp"/>
+	</effect_group>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group" value="Science"/>
+</item>
+
+<item name="DFtechHealing">
+	<property name="Extends" value="DFtechPhysical"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="drugSteroids" />
+	<property name="CustomIconTint" value="138715"/>
+	<property name="DescriptionKey" value="DFtechHealingDesc"/>
+	<property name="Stacknumber" value="5"/> <!-- STK loot -->
+	<property name="UnlockedBy" value="perkCraftFutureTech"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+	</property>
+	<effect_group tiered="false">
+		<requirement name="ProgressionLevel" progression_name="perkBulletSponge" operation="LT" value="1"/>
+		<requirement name="ProgressionLevel" progression_name="perkGottaGoFast" operation="LT" value="1"/>
+		<requirement name="ProgressionLevel" progression_name="perkEnhancedImmuneSystem" operation="LT" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffAcceleratedHealingLvlUp"/>
+	</effect_group>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group" value="Science"/>
+</item>
+
+
+<item name="DFtechPhysical">
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="drugSteroids" />
+	<property name="CustomIconTint" value="AAB411"/>
+	<property name="DescriptionKey" value="DFtechPhysicalDesc"/>
+	<property name="HoldType" value="16"/>
+	<property name="Meshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="EconomicValue" value="80"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Stacknumber" value="5"/> <!-- STK loot -->
+	<property name="UnlockedBy" value="perkCraftFutureTech"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+	</property>
+	<property name="Group" value="Science"/>
+	<effect_group tiered="false">
+		<requirement name="ProgressionLevel" progression_name="perkBulletSponge" operation="LT" value="1"/>
+		<requirement name="ProgressionLevel" progression_name="perkGottaGoFast" operation="LT" value="1"/>
+		<requirement name="ProgressionLevel" progression_name="perkEnhancedImmuneSystem" operation="LT" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffPhysicalConditioningLvlUp"/>
+	</effect_group>
+</item>	
+
+<item name="GPS"> 
+	<property name="DescriptionKey" value="phonedesc"/>
+	<property name="Tags" value="tablet"/>
+	<property name="CustomIcon" value="gps"/>
+	<property name="HoldType" value="36"/>
+	<property name="Meshfile" value="#@modfolder:Resources/tablet.unity3d?Smartphone"/>
+	<property name="Material" value="MmeleeToolKnifeMachete"/> 
+	<property name="Weight" value="6"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="EconomicValue" value="2"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="Group" value="Science"/>
+	<property name="ShowQuality" value="false"/>
+
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Hitmask_override" value="Melee"/>
+		<property name="UseMeleeCrosshair" value="false"/>
+		<property name="Single_magazine_usage" value="false"/>
+		<property name="Magazine_items" value="ammoGasCan"/>
+		<property name="Bullet_material" value="metal"/>
+		<property name="Reload_time" value="4.1"/>
+		<property name="Sound_start" value=""/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="light_on"/>
+		<property name="Sound_reload" value=""/>
+		<property name="SupportHarvesting" value="true"/>
+		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Ranged"/>
+		<property name="Hitmask_override" value="Melee"/>
+		<property name="UsePowerAttackAnimation" value="false"/>
+		<property name="UseMeleeCrosshair" value="false"/>
+		<property name="Single_magazine_usage" value="false"/>
+		<property name="Magazine_items" value="ammoGasCan"/>
+		<property name="Bullet_material" value="metal"/>
+		<property name="Reload_time" value="4.1"/>
+		<property name="Sound_start" value=""/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="flashlight_toggle"/>
+		<property name="Sound_reload" value=""/>
+		<property name="SupportHarvesting" value="true"/>
+		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+	</property>	
+	
+	<effect_group tiered="false">
+		<requirement name="!IsLocalPlayer"/>
+		<triggered_effect trigger="onSelfEquipStart" action="SetTransformActive" active="false" parent_transform="Cam" transform_path="Camera"/>
+		<triggered_effect trigger="onSelfEquipStart" action="SetTransformActive" active="false" parent_transform="ScreenMap" transform_path="Screenm"/>
+		<triggered_effect trigger="onSelfEquipStart" action="SetTransformActive" active="false" parent_transform="ScreenCam" transform_path="Flashlight"/>
+	</effect_group>
+
+
+	<effect_group tiered="false">
+		<requirement name="IsLocalPlayer"/>
+		<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="GPS"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="GPS"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" target="self" buff="GPS"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" target="self" buff="SmartphoneCam"/>
+		<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" target="self" cvar="$SmartphoneScreen" operation="set" value="2"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Cam" prefab="#@modfolder:Resources/tablet.unity3d?CameraZoomedOutSmartphone" parentTransform="" localPos="0,0,0" localRot="0,0,0"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Cam"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Cam2"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Cam3"/>
+		<triggered_effect trigger="onSelfEquipStart" action="SetPartActive" part="Cam" active="true"/>
+		<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="SmartphoneSwap"/>
+		<triggered_effect trigger="onSelfEquipStart" action="SetTransformActive" active="false" parent_transform="Cam" transform_path="Camera"/>
+		<triggered_effect trigger="onSelfEquipStart" action="SetTransformActive" active="true" parent_transform="ScreenMap" transform_path="Screenm"/>
+		<triggered_effect trigger="onSelfEquipStart" action="SetTransformActive" active="false" parent_transform="ScreenCam" transform_path="Flashlight"/>
+		<triggered_effect trigger="onSelfEquipStop" action="SetTransformActive" active="false" parent_transform="ScreenCam" transform_path="Flashlight"/>
+		<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" target="self" cvar="$SmartphoneCam" operation="set" value="1"/>
+	
+		<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="SmartphoneSwap"/>
+		<triggered_effect trigger="onSelfPrimaryActionStart" action="AddBuff" target="self" buff="SmartphoneUsage"/>
+		<triggered_effect trigger="onSelfSecondaryActionStart" action="AddBuff" target="self" buff="SmartphoneCam"/>
+			
+	</effect_group>
+</item>
+
+
+<item name="Crowbar">
+	<property name="Extends" value="meleeToolWrench"/>
+	<property name="CustomIcon" value="khelldonCrowbarIcon"/>
+	<property name="DescriptionKey" value="khelldonCrowbarDesc"/>
+	<property name="Tags" value="blunt,melee,light,tool,perkStayDown,perkSalvageOperations"/>
+	<property name="DisplayType" value="meleeRepairTool"/>
+	<property name="HoldType" value="29"/>
+	<property name="Meshfile" value="#@modfolder:Resources/khelldonCrowbar.unity3d?khelldonCrowbarPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="RepairTools" value="resourceMresourceForgedSteel"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="metaldestroy1"/>
+	<property name="EconomicValue" value="288"/>
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sound_start" value="swoosh"/>
+		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+		<property name="ToolCategory.Disassemble" value="1" param1="1"/>
+		<property name="Sound_harvesting" value="wrench_harvest" param1="metal"/>
+		<property name="Particle_harvesting" value="true" param1="metal"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Repair"/>
+		<property name="Delay" value="1"/>
+		<property name="Repair_amount" value="350"/>
+		<property name="Upgrade_hit_offset" value="-2"/>
+		<property name="Sound_start" value="repair_block"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourcearmorScrapIron,resourceForgedIron,resourceMresourceForgedSteel,resourceConcreteMix,resourceCobblestones,resourceYuccaFibers"/>
+	</property>
+	<effect_group name="Base Effects">
+		<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="12.5"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="5.4"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="50"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="salvageHarvest"/>
+	    <passive_effect name="HarvestCount" operation="base_set" value="1" tags="nailsHarvest"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="16.2" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="250,600" tier="1,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+	</effect_group>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="ActionSkillGroup" value="Construction Tools"/>
+	<property name="CraftingSkillGroup" value="craftSkillTools"/>
+	<property name="RepairExpMultiplier" value="5.5"/>
+</item>
+
+<item name="miningLaser">                  
+			<property name="CustomIcon" value="MiningLaserTN"/>     
+			<property name="CreativeMode" value="Player"/>    
+			<property name="Meshfile" value="#@modfolder:Resources/MiningLaserPrefab.unity3d?MiningLaserPrefab"/>     
+			<property name="Material" value="Mmetal"/>              
+			<property name="HoldType" value="19"/> 
+			<property name="Stacknumber" value="1"/>    
+			<property name="DegradationBreaksAfter" value="false"/>                  
+			<property name="Degradation" value="99999" param1="true"/>     
+			<property name="SoundJammed" value="weapon_jam"/>    
+			<property name="CrosshairUpAfterShot" value="true"/>     
+			<property name="CrosshairOnAim" value="true"/>              
+			<property class="Action0"> 
+				<property name="Class" value="Ranged"/>    
+				<property name="Hitmask_override" value="Melee"/>                  
+				<!--<property name="Delay" value="0.5"/> -->     
+				<property name="Auto_fire" value="true"/>    
+				<property name="Rays_per_shot" value="1"/>     
+				<property name="Rays_spread" value="0"/>              
+				<property name="Crosshair_min_distance" value="5"/> 
+				<property name="Crosshair_max_distance" value="8"/>    
+				<!-- <property name="DamageBlock" value="3000"/> -->                  
+				<!-- <property name="DamageEntity" value="0.1"/> -->     
+				<property name="Single_magazine_usage" value="true"/>    
+				<property name="Infinite_ammo" value="true"/>     
+              
+				<property name="Magazine_items" value="9mmBullet"/> 
+				<property name="Reload_time" value="4.1"/>    
+				<property name="Bullet_icon" value="uzi"/>                  
+				<property name="Sound_start" value=""/>     
+				<property name="Sound_repeat" value=""/>    
+				<property name="Sound_end" value=""/>     
+				<property name="Sound_empty" value="weapon_empty"/>              
+				<property name="Sound_reload" value="mp5_reload"/> 
+    
+				<property name="Particles_muzzle_fire" value="nozzleflashuzi"/>                  
+				<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi"/>     
+    
+				<property name="SupportHarvesting" value="true"/>     
+				<property name="UseMeleeCrosshair" value="true"/>              
+				<property name="ToolCategory.harvestingTools" value="2" param1="1"/> 
+				<property name="ToolCategory.Butcher" value="0" param1="20"/>    
+				<!--<property name="ActionExp" value="1"/>-->                  
+			</property>     
+			<property class="Action1">    
+				<property name="Class" value="Zoom"/>     
+				<property name="Zoom_max_out" value="38"/>              
+				<property name="Zoom_max_in" value="10"/> 
+			</property>    
+			<effect_group name="Base Effects" tiered="false">                  
+				<passive_effect name="ModSlots" operation="base_set" value="0" />     
+				<passive_effect name="MaxRange" operation="base_set" value="200"/>    
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="150"/>     
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="90"/>              
+				<passive_effect name="EntityDamage" operation="base_set" value="5000"/> 
+				<passive_effect name="BlockDamage" operation="base_set" value="1000"/>    
+                  
+				<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.7"/>     
+				<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".7"/>    
+     
+				<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.6"/>              
+				<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".6"/> 
+				<display_value name="dRecoil" value="0" />    
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0.05"/>                  
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0.05"/>     
+				<passive_effect name="SpreadMultiplierAiming" operation="base_set" value="0.005"/>    
+				<passive_effect name="WeaponHandling" operation="base_set" value="1.2"/>     
+				<passive_effect name="DegradationMax" operation="base_set" value="6000"/>              
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/> 
+    
+			</effect_group>                  
+			<property name="ActionSkillGroup" value="Mining Tools"/>     
+			<property name="CraftingSkillGroup" value="craftSkillTools"/>    
+			<!-- <property name="PickupJournalEntry" value="miningLaserTip"/> -->     
+			<property name="DescriptionKey" value="miningLaserDesc" />              
+			<property name="RepairExpMultiplier" value="4"/> 
+		</item> 
+		
+		
+</append>
+</configs>

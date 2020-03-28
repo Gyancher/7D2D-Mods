@@ -1,0 +1,259 @@
+<configs>
+	
+<append xpath="/items/item[@name='meleeToolAuger']/property[@name='Tags']/@value">,motorTools1,gasTank1,motorToolReach,diamondBlade1</append>
+
+<append xpath="/items/item[@name='meleeToolChainsaw']/property[@name='Tags']/@value">,motorTools1,gasTank1,motorToolReach</append>
+	
+<!-- Auger and Chainsaw schematics and attachments -->
+<!-- ENGINE TURBO -->
+<append xpath="/items">
+	
+	<item name="+Grasscutter">
+	
+			<property name="Tags" value="knife,melee,light,weapon,meleeWeapon,perkDeepCuts,perkTheHuntsman,perkLivingOffTheLandCrops"/>
+			<property name="DisplayType" value="melee"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="HoldType" value="50"/>
+			<property name="Meshfile" value="ScythePrefab"/>
+			<property name="DropScale" value="6"/>
+			<property name="CustomIcon" value="scythe"/>
+		<property name="CustomIconTint" value="68,170,0"/>
+		<property name="TintColor" value="68,170,0"/>
+		<property name="UnlockedBy" value="lootTagline"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="RepairTools" value="resourceRepairKit"/>
+		<property name="DegradationBreaksAfter" value="false"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="SoundJammed" value="ItemNeedsRepair"/>
+		<property name="SoundDestroy" value="wooddestroy1"/>
+		<property name="Weight" value="50"/>
+		<property name="Group" value="Loot"/>
+		<property name="ActionSkillGroup" value="Blade Weapons"/>
+		<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
+		<property name="RepairExpMultiplier" value="5"/>
+		<property name="ShowQuality" value="true"/>
+
+		<property class="Action0">
+			<property name="Class" value="DynamicMelee"/>
+			<property name="Damage_type" value="Slashing"/>
+			<property name="Sphere" value="0.2"/>
+			<property name="Sound_start" value="swoosh"/>
+			<property name="ActionExp" value="0"/>
+		</property>
+
+		<property class="Action1">
+			<property name="Class" value="DynamicMelee"/>
+			<property name="Damage_type" value="Slashing"/>
+			<property name="Sphere" value="0.2"/>
+			<property name="Sound_start" value="swoosh"/>
+			<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+		</property>
+
+		<effect_group name="Base Effects">
+			<passive_effect name="MaxRange" operation="base_set" value="120"/>
+			<passive_effect name="BlockRange" operation="base_set" value="20"/>
+			<passive_effect name="EntityDamage" operation="base_set" value="0,0"/>
+			<passive_effect name="BlockDamage" operation="base_set" value="0,0"/>
+			<passive_effect name="AttacksPerMinute" operation="base_set" value="900"/>
+			<!-- This determins the swing speed. Default is 300 AttacksPerMinute or 5 swings/sec. -->
+			<passive_effect name="StaminaLoss" operation="base_set" value=".01" tags="primary"/>
+			<passive_effect name="DegradationMax" operation="base_set" value="700,2000" tier="1,6"/>
+			<passive_effect name="DegradationPerUse" operation="base_set" value="-10" tags="perkDeepCuts"/>
+			<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		</effect_group>
+	</item>
+
+	<item name="modEngineTurbo1Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsTurboCharger_schematic"/>
+		<property name="EconomicValue" value="250"/>
+	</item>
+	<item name="modEngineTurbo2Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsTurboCharger_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>
+	<item name="modEngineTurbo3Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsTurboCharger_schematic"/>
+		<property name="EconomicValue" value="750"/>
+	</item>
+	
+<!-- GAS TANK -->
+	<item name="modGasTank1Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="JerryCans1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>
+	<item name="modGasTank2Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="JerryCans1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>
+	<item name="modGasTank3Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="JerryCans1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>
+
+<!-- RESERVE GAS TANK	-->
+	<item name="modReserveGasTank1Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsReserveGasTank_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>
+	<item name="modReserveGasTank2Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsReserveGasTank_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>
+	<item name="modReserveGasTank3Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsReserveGasTank_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>
+	
+<!-- BLADE EXTENSION -->	
+	<item name="modMotorToolExtension1Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsAugerBlade1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
+	<item name="modMotorToolExtension2Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsAugerBlade1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>		
+	<item name="modMotorToolExtension3Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsAugerBlade1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
+	
+<!-- DIAMOND TIP AUGER -->
+	<item name="modDiamondTip1Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsAugerBlade1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
+	<item name="modDiamondTip2Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsAugerBlade1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>		
+	<item name="modDiamondTip3Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsAugerBlade1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
+
+<!-- BETTER HANDLES -->
+	
+	<item name="modBetterHandlesSchematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsAugerHandles1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
+
+<!-- MOTOR TOOL SILENCER -->
+	<item name="modMotorToolSilencerSchematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsSoundDampnerField1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
+	
+<!-- CHAINSAW TEMPERED FRAME -->
+	<item name="modChainsawTemperedFrame1Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsChainsawBody1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>		
+	<item name="modChainsawTemperedFrame2Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsChainsawBody1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
+	<item name="modChainsawTemperedFrame3Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsChainsawBody1_schematic"/>
+		<property name="EconomicValue" value="500"/>
+	</item>	
+
+
+	<item name="Quicker Fixer Upper Schematic">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="CustomIcon" value="DrsQuickerFixerUpper_Schematic"/>
+		<property name="DescriptionKey" value="schematicMaster5Desc"/>
+		<property name="EconomicValue" value="750"/>
+	</item>		
+<item name="Quicker Fixer Upper">
+	<property name="Tags" value="tool,nailgun,sideAttachments,selfLoading,canHaveCosmetic"/>
+	<property name="DisplayType" value="meleeRepairTool"/>
+	<property name="HoldType" value="37"/>
+	<property name="CustomIcon" value="Drs_chipped_nailGun"/>
+	<property name="Meshfile" value="#Other/Items?Tools/nailgunPrefab.prefab"/>
+	<property name="Material" value="MmechanicalParts"/> <property name="Weight" value="27"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property class="Action0">
+		<property name="Class" value="Launcher"/>
+		<property name="Hitmask_override" value="Arrow"/>
+		<property name="Delay" value="0.3"/> 
+		<property name="Magazine_items" value="resourceNail"/>
+		<property name="Instantiate_on_load" value="false"/>
+		<property name="Reload_time" value="2"/>
+		<property name="Sound_start" value="nailgun_fire"/>
+		<property name="Particles_muzzle_fire" value="nailgunfire"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="nailgun_reload"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Repair"/>
+		<property name="Delay" value="0.3"/> <!-- Repair actions still need the delay amount -->
+		<property name="Repair_amount" value="1000"/>
+		<property name="Upgrade_hit_offset" value="-5"/>
+		<property name="Repair_action_sound" value="nailgun_fire"/>
+		<property name="Upgrade_action_sound" value="nailgun_fire"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail"/>
+	</property>
+	<property name="Group" value="Tools/Traps"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="EconomicValue" value="2000"/>
+	<effect_group name="gunToolNailgun" tiered="false"> <!-- gunToolNailgun -->
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="3"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
+		<passive_effect name="MaxRange" operation="base_set" value="10"/>
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.3"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.3"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".4"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2"/>
+
+		<display_value name="dBlockRepairAmount" value="1000"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="0.7"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="200"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="500"/>
+		
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.7"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".7"/>
+
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.6"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".6"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="2000,4000" tier="1,6"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="5" tier="1,6"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="2000" tags="nailgun"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="nailgun"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+	</effect_group>
+		</item>
+</append>
+
+</configs>

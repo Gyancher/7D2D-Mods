@@ -1,0 +1,88 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+ZcallDesc,blocks,Description,New,Place to attract screamers. Pickup to remove effect.,,,
+ZRepDesc,blocks,Description,New,Place to Repel screamers. Pickup to remove effect.,,,
+JumpPad,blocks,Block,--,Jump Pad,Jump Pad,Jump Pad,Jump Pad, <-- item label
+JumpPadDesc,blocks,Block,--,Just Jump on this and go soaring.\n 50+ meter jump,Just Jump on this and go soaring.\n 50+ meter jump,Just Jump on this and go soaring.\n 50+ meter jump,Just Jump on this and go soaring.\n 50+ meter jump,
+tooltipJammed,UI,Menu,,,<{0}> Use {1} ([DECEA3]Jammed[-]),,<{0}> Verwende {1} ([DECEA3]Blockiert[-]),<{0}> Usa {1} ([DECEA3]Atascado[-]),<{0}> pour utiliser {1} ([DECEA3]coincé(e)[-]),<{0}> Usa {1} ([DECEA3]Inceppato[-]),<{0}> {1} を使用 ([DECEA3]固定[-]),<{0}> {1} 사용 ([DECEA3]혼잡[-]),<{0}> Użyj {1} ([DECEA3]zacięte[-]),<{0}> Usa {1} ([DECEA3]Emperrado[-]),<{0}> Использовать {1} ([DECEA3]заклинило[-]),<{0}> {1} Kullan ([DECEA3]Sıkışmış[-]),<{0}>使用{1} （[DECEA3]挤满[-]）,<{0}>用法{1}（[DECEA3]已堵塞[-]),<{0}> Usa {1} ([DECEA3]Atascado[-])
+tooltipLocked,UI,Menu,,,<{0}> Use {1} ([EE9988]Locked[-]),,<{0}> Verwende {1} ([EE9988]Verschlossen[-]),<{0}> Usa {1} ([DECEA3]Bloqueado[-]),<{0}> pour utiliser {1} ([DECEA3]verrouillé(e)[-]),<{0}> Usa {1} ([DECEA3]Bloccato[-]),<{0}> {1} を使用 ([DECEA3]施錠済み[-]),<{0}> {1} 사용 ([DECEA3]잠김[-]),<{0}> Użyj {1} ([DECEA3]zablokowane[-]),<{0}> Usa {1} ([DECEA3]Trancado[-]),<{0}> Использовать {1} ([DECEA3]заперто[-]),<{0}> {1} Kullan ([DECEA3]Kilitli[-]),<{0}> 使用{1}（[DECEA3]锁定[-]）,<{0}>用法{1}（[DECEA3]已鎖定[-]),<{0}> Usa {1} ([DECEA3]Bloqueado[-])
+tooltipUnlocked,UI,Menu,,,<{0}> Use {1} ([AAFF88]Unlocked[-]),,<{0}> Verwende {1} ([AAFF88]Aufgeschlossen[-]),<{0}> Usa {1} ([DECEA3]Desbloqueado[-]),<{0}> pour utiliser {1} ([DECEA3]déverrouillé(e)[-]),<{0}> Usa {1} ([DECEA3]Sbloccato[-]),<{0}> {1} を使用 ([DECEA3]解錠済み[-]),<{0}> {1} 사용 ([DECEA3]열림[-]),<{0}> Użyj {1} ([DECEA3]odblokowane[-]),<{0}> Usa {1} ([DECEA3]Destrancado[-]),<{0}> Использовать {1} ([DECEA3]открыто[-]),<{0}> {1} Kullan ([DECEA3]Kilidi Açık[-]),<{0}>使用{1} （[DECEA3]已解锁[-]）,<{0}>用法{1}（[DECEA3]已解鎖[-]),<{0}> Usa {1} ([DECEA3]Desbloqueado[-])
+lootEntity,UI,Use Prompt,,,<{0}> Search {1} [AAFF88](Untouched)[-],,<{0}> {1} durchsuchen [AAFF88](Unberührt)[-],<{0}> Registrar {1} (Intacto),<{0}> Fouiller {1} (intact),<{0}> Esamina {1} (Nuovo),<{0}> {1}を調べる （未確認）,<{0}> {1}(손대지 않은) 검색,<{0}> Przeszukaj: {1} (nienaruszone),<{0}> Buscar {1} (intocado),<{0}>: обыскать тело ({1}) (нетронуто),<{0}> Ara: {1} (Dokunulmamış),<{0}> 搜索 {1}（未触碰过）,<{0}> 搜索{1}（未觸及）,<{0}> Registrar {1} (Intacto)
+lootTooltipEmpty,UI,Use Prompt,,,[FFBB44]Empty[-] {1},,{1} [FFBB44](Leer)[-],Vacío {1},{1} vide,{1} Vuoto,空の{1},빈 {1},Puste {1},Esvaziar {1},{1}: пусто,Boş {1},{1} - 空,空的 {1},Vacío {1}
+lootTooltipNew,UI,Use Prompt,,,<{0}> Search {1} [AAFF88](Untouched)[-],,<{0}> Durchsuche {1} [AAFF88](Unberührt)[-],<{0}> Registrar {1} (Intacto),<{0}> Fouiller {1} (intact),<{0}> Esamina {1} (Nuovo),<{0}> {1}を調べる （未確認）,<{0}> {1}(손대지 않은) 검색,<{0}> Przeszukaj: {1} (nienaruszone),<{0}> Buscar {1} (intocado),<{0}>: обыскать тело ({1}) (нетронуто),<{0}> Ara: {1} (Dokunulmamış),<{0}> 搜索 {1}（未触碰过）,<{0}> 搜索{1}（未觸及）,<{0}> Registrar {1} (Intacto)
+lootTooltipTouched,UI,Use Prompt,,,<{0}> Search {1} [DDBB99](Known)[-] ,,<{0}> Durchsuche {1} [DDBB99](Bekannt)[-],<{0}> Registrar {1},<{0}> pour fouiller {1},<{0}> Esamina {1},<{0}> {1}を調べる,<{0}> {1} 검색,<{0}> Przeszukaj: {1},<{0}> Buscar {1},<{0}>: обыскать контейнер ({1}),<{0}> Ara: {1},<{0}> 搜索 {1},<{0}> 搜索{1},<{0}> Registrar {1}
+modEngineTurbo1Schematic,items,Items,New,Turbo Engine Mk.I Schematic
+modEngineTurbo2Schematic,items,Items,New,Turbo Engine Mk.II Schematic
+modEngineTurbo3Schematic,items,Items,New,Turbo Engine Mk.III Schematic
+modGasTank1Schematic,items,Items,New,Gas Tank Mk.I Schematic
+modGasTank2Schematic,items,Items,New,Gas Tank Mk.II Schematic
+modGasTank3Schematic,items,Items,New,Gas Tank Mk.III Schematic
+modReserveGasTank1Schematic,items,Items,New,Gas Tank Reserve Mk.I Schematic
+modReserveGasTank2Schematic,items,Items,New,Gas Tank Reserve Mk.II Schematic
+modReserveGasTank3Schematic,items,Items,New,Gas Tank Reserve Mk.III Schematic
+modMotorToolExtension1Schematic,items,Items,New,Tool Extension Mk.I Schematic
+modMotorToolExtension2Schematic,items,Items,New,Tool Extension Mk.II Schematic
+modMotorToolExtension3Schematic,items,Items,New,Tool Extension Mk.III Schematic
+modDiamondTip1Schematic,items,Items,New,Diamond Tip Mk.I Schematic
+modDiamondTip2Schematic,items,Items,New,Diamond Tip Mk.II Schematic
+modDiamondTip3Schematic,items,Items,New,Diamond Tip Mk.III Schematic
+modBetterHandlesSchematic,items,Items,New,Better Handles Schematic
+modMotorToolSilencerSchematic,items,Items,New,Motor Silencer Schematic
+modChainsawTemperedFrame1Schematic,items,Items,New,Chainsaw Tempered Frame Mk.I Schematic
+modChainsawTemperedFrame2Schematic,items,Items,New,Chainsaw Tempered Frame Mk.II Schematic
+modChainsawTemperedFrame3Schematic,items,Items,New,Chainsaw Tempered Frame Mk.III Schematic
+modEngineTurbo1,item_modifier,Mod,New,Turbo Engine Mk.I
+modEngineTurbo2,item_modifier,Mod,New,Turbo Engine Mk.II
+modEngineTurbo3,item_modifier,Mod,New,Turbo Engine Mk.III
+modGasTank1,item_modifier,Mod,New,Gas Tank Mk.I
+modGasTank2,item_modifier,Mod,New,Gas Tank Mk.II
+modGasTank3,item_modifier,Mod,New,Gas Tank Mk.III
+modReserveGasTank1,item_modifier,Mod,New,Gas Tank Reserve Mk.I
+modReserveGasTank2,item_modifier,Mod,New,Gas Tank Reserve Mk.II
+modReserveGasTank3,item_modifier,Mod,New,Gas Tank Reserve Mk.III
+modMotorToolExtension1,item_modifier,Mod,New,Tool Extension Mk.I
+modMotorToolExtension2,item_modifier,Mod,New,Tool Extension Mk.II
+modMotorToolExtension3,item_modifier,Mod,New,Tool Extension Mk.III
+modDiamondTip1,item_modifier,Mod,New,Diamond Tip Mk.I
+modDiamondTip2,item_modifier,Mod,New,Diamond Tip Mk.II
+modDiamondTip3,item_modifier,Mod,New,Diamond Tip Mk.III
+modBetterHandles,item_modifier,Mod,New,Better Handles
+modMotorToolSilencer,item_modifier,Mod,New,Motor Silencer
+modChainsawTemperedFrame1,item_modifier,Mod,New,Chainsaw Tempered Frame Mk.I
+modChainsawTemperedFrame2,item_modifier,Mod,New,Chainsaw Tempered Frame Mk.II
+modChainsawTemperedFrame3,item_modifier,Mod,New,Chainsaw Tempered Frame Mk.III
+modEngineTurbo1Desc,item_modifier,Mod,New,"Increases speed of your Chainsaw and Auger by 10%"
+modEngineTurbo2Desc,item_modifier,Mod,New,"Increases speed of your Chainsaw and Auger by 25%"
+modEngineTurbo3Desc,item_modifier,Mod,New,"Increases speed of your Chainsaw and Auger by 50%"
+modGasTank1Desc,item_modifier,Mod,New,"Increases the size of your Gas Tank by 25%.\n\nStacks with the Reserved Gas Tanks"
+modGasTank2Desc,item_modifier,Mod,New,"Increases the size of your Gas Tank by 50%.\n\nStacks with the Reserved Gas Tanks"
+modGasTank3Desc,item_modifier,Mod,New,"Increases the size of your Gas Tank by 100%.\n\nStacks with the Reserved Gas Tanks"
+modReserveGasTank1Desc,item_modifier,Mod,New,"Increases the size of your Gas Tank by 25%.\n\nStacks with the Gas Tanks"
+modReserveGasTank2Desc,item_modifier,Mod,New,"Increases the size of your Gas Tank by 50%.\n\nStacks with the Gas Tanks"
+modReserveGasTank3Desc,item_modifier,Mod,New,"Increases the size of your Gas Tank by 100%.\n\nStacks with the Gas Tanks"
+modMotorToolExtension1Desc,item_modifier,Mod,New,"Increases the range of your Chainsaw and Auger by 10%"
+modMotorToolExtension2Desc,item_modifier,Mod,New,"Increases the range of your Chainsaw and Auger by 25%"
+modMotorToolExtension3Desc,item_modifier,Mod,New,"Increases the range of your Chainsaw and Auger by 50%"
+modDiamondTip1Desc,item_modifier,Mod,New,"Increases block damage of your Auger by 10%.\n\nReduces damage to Wood by 100%"
+modDiamondTip2Desc,item_modifier,Mod,New,"Increases block damage of your Auger by 25%.\n\nReduces damage to Wood by 100%"
+modDiamondTip3Desc,item_modifier,Mod,New,"Increases block damage of your Auger by 50%.\n\nReduces damage to Wood by 100%"
+modBetterHandlesDesc,item_modifier,Mod,New,"Reduces Kick from your Chainsaw and Auger by about 85%"
+modMotorToolSilencerDesc,item_modifier,Mod,New,"You can now mine in Peace"
+modChainsawTemperedFrame1Desc,item_modifier,Mod,New,"Increases Durability and reduces the Degradation per use by 25%"
+modChainsawTemperedFrame2Desc,item_modifier,Mod,New,"Increases Durability and reduces the Degradation per use by 50%"
+modChainsawTemperedFrame3Desc,item_modifier,Mod,New,"Increases Durability and reduces the Degradation per use by 75%"
+modArmorRunningShoes,item_modifiers,mod,New,Running Shoes Mod
+modArmorRunningShoesDesc,item_modifiers,mod,New,"This running shoe modification makes any armor boots look like running shoes, 10% speed increase and offers insulation against the elements."
+modArmorSportJacket,item_modifiers,mod,New,Jacket Mod of Speed
+modArmorSportJacketDesc,item_modifiers,mod,New,"Who would think you're made of steel when all they see is a sports jacket! Eat my Dust! Run 10% faster and offers insulation against the elements."
+modArmorRunningShoes_noAltar,item_modifiers,mod,New,Running Shoes Mod NA
+modArmorRunningShoes_noAltarDesc,item_modifiers,mod,New,"NO ALTAR LOOK VERSION If you can run faster than your friends you will be safe from the zombies! 10% speed increase."
+modArmorSportJacket_noAltar,item_modifiers,mod,New,Jacket Mod of Speed NA
+modArmorSportJacket_noAltarDesc,item_modifiers,mod,New,"NO ALTAR LOOK VERSION This new coating mod reduces your wind friction and just by reason of its awesomeness you are faster! Eat my Dust! Run 10% faster."
+modArmorRunningShoes2,item_modifiers,mod,New,Running Shoes Mod 2
+modArmorRunningShoes2Desc,item_modifiers,mod,New,"This running shoe modification makes any armor boots look like running shoes, run and walk 15% faster and offers insulation against the elements."
+modArmorSportJacket2,item_modifiers,mod,New,Jacket Mod of Speed 2
+modArmorSportJacket2Desc,item_modifiers,mod,New,"Who would think you're made of steel when all they see is a sports jacket! Eat my Dust! Run and walk 15% faster and offers insulation against the elements."
+modArmorRunningShoes_noAltar2,item_modifiers,mod,New,Running Shoes Mod NA 2
+modArmorRunningShoes_noAltar2Desc,item_modifiers,mod,New,"NO ALTAR LOOK VERSION If you can run faster than your friends you will be safe from the zombies! Run and walk 15% faster."
+modArmorSportJacket_noAltar2,item_modifiers,mod,New,Jacket Mod of Speed NA 2
+modArmorSportJacket_noAltar2Desc,item_modifiers,mod,New,"NO ALTAR LOOK VERSION This new coating mod reduces your wind friction and just by reason of its awesomeness you are faster! Eat my Dust! Run and walk 15% faster."

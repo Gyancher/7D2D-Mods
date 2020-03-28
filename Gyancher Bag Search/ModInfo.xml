@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Buttons" />
+		<Description value="Adds more info to the hud" />
+		<Author value="Gyacher" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>

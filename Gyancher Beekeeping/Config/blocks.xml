@@ -1,0 +1,41 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="beeHive1">
+			<property name="Class" value="Campfire" />
+			<property name="Extends" value="decoEntityMetalMaster"/>
+			<property name="MaxDamage" value="200"/>
+				<property name="CustomIcon" value="beehiveFull" />
+			<property name="Model" value="#@modfolder:Resources/JaxTeller718_Items.unity3d?beehiveFull.prefab" />			
+			<property class="RepairItems">
+				<property name="woodBoard" value="4" />
+			</property>
+			<drop event="Harvest" name="resourceWood" count="20,30" tag="oreWoodHarvest"/>
+			<drop event="Destroy" name="foodHoney" count="1" prob=".4"/>			
+		</block>
+		
+		<block name="beesWaxCandle">
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="Entities/Lighting/candle_table_playerPrefab"/>
+			<property name="CustomIcon" value="candleTable" />
+			<property name="Collide" value="melee,bullet,arrow,rocket" />
+			<property name="IsDecoration" value="true" />
+			<property name="StabilitySupport" value="false" />
+			<!-- build restriction -->
+			<property name="CreativeMode" value="Player" />
+			<property name="Class" value="Torch" />
+			<property name="Material" value="Morganic" />
+			<property name="MaxDamage" value="1" />
+			<property name="Place" value="TowardsPlacerInverted" />
+			<property name="OnlySimpleRotations" value="true" />
+			<property name="CanPickup" value="true" param1="waxCandle" />
+			<property name="HeatMapStrength" value="1" />
+			<property name="HeatMapTime" value="1200" />
+			<property name="HeatMapFrequency" value="15" />
+			<drop event="Destroy" name="waxCandle" count="1" />
+			<property name="Group" value="Building" />
+			<property name="DescriptionKey" value="torchGroupDesc" />
+		</block>
+		
+		
+	</append>
+</configs>
