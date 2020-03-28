@@ -1,0 +1,4 @@
+Key,Source,Context,UsedInMainMenu,NoTranslate,english,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+modGunScope30,item_modifiers,mod,,,Scope 30x Mod.
+modGunScope30Desc,item_modifiers,mod,,,Increases visual magnification when aiming.\nInstalls into small firearms and crossbows.
+modGunScope30Schematic,item_modifiers,Mod,,,Scope 30x Mod Schematic.

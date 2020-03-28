@@ -1,0 +1,9 @@
+<configs>
+	  <append xpath="/traders/trader_item_groups/trader_item_group[@name='modGunT2']">
+		<item name="modGunScope30"/>
+	  </append>
+	  <append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+		<item name="modGunScope30Schematic"/>
+	
+	  </append>
+</configs>

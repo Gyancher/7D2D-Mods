@@ -1,0 +1,19 @@
+<configs>
+<!-- Fixes for missing weapon tags-->
+  <set xpath="/items/item[@name='gun44Magnum']/property[@name='Tags']/@value">weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,revolver,noSilencer,barrelAttachments,sideAttachments,attAgility,perkGunslinger,canHaveCosmetic,smallTopAttachments,mediumTopAttachments,largeTopAttachments </set>
+  <set xpath="/items/item[@name='gunSMG5']/property[@name='Tags']/@value">weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic,smallTopAttachments,mediumTopAttachments,largeTopAttachments </set>
+  <set xpath="/items/item[@name='gunM60']/property[@name='Tags']/@value">weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic,smallTopAttachments,mediumTopAttachments,largeTopAttachments </set>
+   
+	<append xpath="/items">	
+<item name="modGunScope30Schematic">
+	<property name="Extends" value="schematicNoQualityMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Unlocks" value="modGunScope30"/>
+	<property name="CustomIcon" value="Scope30"/> 
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunScopeSmall" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+</append>
+</configs>
