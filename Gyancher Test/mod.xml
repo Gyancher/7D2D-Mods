@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mod>
+  <info>
+    <author>Gyancher</author>
+    <name>0-GyancherCore</name>
+    <description>Gyancher's Core Class Mod ( Required )</description>
+    <mod_version>18.3.3</mod_version>
+  </info>
+  <hashes>
+   
+    <hash filename="Scripts\Door.cs" hash="a020cc7fcea281e4aae5a883570d7416" />
+    <hash filename="Scripts\SlideOpen.cs" hash="567f6f850f776e24799220995b80df10" />
+	 <hash filename="Scripts\sliding.cs" hash="74a4f9fbd64a1ce488226b34fb6a9808" />
+	  <hash filename="Scripts\trigger.cs" hash="f7bd761804da8e143b29048cc0df5525" />
+    <hash filename="Config\blocks.xml"/>
+  </hashes>
+</mod>

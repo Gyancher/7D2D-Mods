@@ -1,0 +1,194 @@
+<configs>
+	<append xpath="/blocks">
+
+    <block name="Barricade1Wood">
+	<property name="DisplayType" value="blockHardenedMulti"/>
+		<property name="CustomIcon" value="barricade" />
+	<property name="Material" value="Mmetal_hard"/> <!-- 2500 -->
+	<property name="PassThroughDamage" value="false"/>
+	<property name="LightOpacity" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="MaxDamage" value="1000"/>
+	<property name="Place" value="Door"/>
+	<property name="AllowAllRotations" value="true"/> <!-- enables the 45 degree rotations -->
+	<property name="Model" value="#@modfolder:Resources/barricades.unity3d?Barricade_01"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<!-- <property name="ModelOffset" value="0,.5,0"/> -->
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="CanPickup" value="true" param1="Barricade1Wood"/>	
+	<property class="RepairItems"> 
+	<property name="resourceForgedIron" value="10"/> </property>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<drop event="Harvest" name="resourceScrapIron" count="40" prob="1" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="EconomicValue" value="60"/>
+	<property name="IndexName" value="TraderOnOff"/> <!-- flag this block to change to locked/unlocked if in a trader station -->
+	<property name="FilterTags" value="fdecor,fdoors"/>
+	<property name="SortOrder1" value="7060"/>
+	<property name="SortOrder2" value="0300"/> <!-- SortDoors -->
+	</block>
+	
+	 <block name="Barricade2Wood">
+	<property name="DisplayType" value="blockHardenedMulti"/>
+	<property name="CustomIcon" value="barricade" />
+	<property name="Material" value="Mmetal_hard"/> <!-- 2500 -->
+	<property name="PassThroughDamage" value="false"/>
+	<property name="LightOpacity" value="1"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="MaxDamage" value="1000"/>
+	  <property name="Tag" value="Door" />
+     <property name="Place" value="Door" />
+	<property name="AllowAllRotations" value="true"/> <!-- enables the 45 degree rotations -->
+	<property name="Model" value="#@modfolder:Resources/barricades.unity3d?Barricade_02"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<!-- <property name="ModelOffset" value="0,.5,0"/> -->
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="CanPickup" value="true" param1="Barricade2Wood"/>	
+		<property class="RepairItems">
+			<property name="resourceForgedIron" value="8"/>
+			<property name="resourceElectricParts" value="6"/>
+			<property name="resourceElectricParts" value="2"/>
+			<property name="resourceScrapPolymers" value="4"/>
+		</property>
+
+	<drop event="Harvest" name="resourceScrapIron" count="40" prob="1" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="EconomicValue" value="60"/>
+	<property name="IndexName" value="TraderOnOff"/> <!-- flag this block to change to locked/unlocked if in a trader station -->
+	<property name="FilterTags" value="fdecor,fdoors"/>
+	<property name="SortOrder1" value="7060"/>
+	<property name="SortOrder2" value="0300"/> <!-- SortDoors -->
+	</block>
+
+
+ <block name="Windmill">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="BatteryBank"/>
+	<property name="CustomIcon" value="windmill" />
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#@modfolder:Resources/Windmill.unity3d?windmill.prefab" /> <property name="HandleFace" value="Bottom"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="DescriptionKey" value="powerSourceDesc"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering,batterybankSchematic"/>
+	<property name="MaxPower" value="400"/>
+	<property name="InputPerTick" value="5"/>
+	<property name="ChargePerInput" value="1"/>
+	<property name="OutputPerStack" value="50"/>
+	<property name="OutputPerCharge" value="90"/>
+	<property name="SlotItem" value="carBattery"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="8"/>
+		<property name="resourceElectricParts" value="6"/>
+		<property name="resourceElectricParts" value="2"/>
+		<property name="resourceScrapPolymers" value="4"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="120" tag="allHarvest"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceForgedIron" count="3" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="2,3" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,2" prob="0.6" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="TakeDelay" value="15"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+	
+<!-- <block name="parking"> -->
+<!-- <property name="CreativeMode" value="Player"/> -->
+ <!-- <property name="DescriptionKey" value="doorGroupDesc"/> -->
+      <!-- <property name="Class" value="BladeTrap"/> -->
+      <!-- <property name="Material" value="Mmetal"/> -->
+		<!-- <property name="StabilityFull" value="true"/> -->
+      <!-- <property name="PassThroughDamage" value="true"/> -->
+      <!-- <property name="LightOpacity" value="1"/> -->
+      <!-- <property name="Shape" value="ModelEntity"/> -->
+     <!-- <property name="RequiredPower" value="0"/> -->
+      <!-- <property name="PlaceEverywhere" value="true"/> -->
+		<!-- <property name="Model" value="#@modfolder:Resources/parking.unity3d?Parking.prefab" /> -->
+		<!-- <property name="DisplayType" value="blockMulti" /> -->
+        <!-- <property name="MultiBlockDim" value="5,7,6" /> -->
+      <!-- <property name="ImposterExchange" value="imposterBlock" param1="9"/> -->
+      <!-- <property name="OpenSound" value="open_door_metal"/> -->
+      <!-- <property name="CloseSound" value="close_door_metal"/> -->
+      <!-- <property class="RepairItems"> <property name="resourceWood" value="3"/> </property> -->
+      <!-- <drop event="Harvest" name="resourceWood" count="2" prob="1" tag="allHarvest"/> -->
+      <!-- <drop event="Destroy" count="0"/> -->
+      <!-- <drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/> -->
+      <!-- <property name="FilterTags" value="fdecor,fdoors"/> -->
+      <!-- <property name="CustomIcon" value="HD Truck Elevator" /> -->
+	 <!-- </block>	 -->
+
+<!-- <block name="parkingRotate"> -->
+ <!-- <property name="DescriptionKey" value="doorGroupDesc"/> -->
+      <!-- <property name="Class" value="BladeTrap"/> -->
+      <!-- <property name="Material" value="Mmetal"/> -->
+		<!-- <property name="StabilityFull" value="true"/> -->
+      <!-- <property name="PassThroughDamage" value="true"/> -->
+      <!-- <property name="LightOpacity" value="1"/> -->
+      <!-- <property name="Shape" value="ModelEntity"/> -->
+      <!-- <property name="PlaceEverywhere" value="true"/> -->
+		<!-- <property name="Model" value="#@modfolder:Resources/parkingrotate.unity3d?Rotating.prefab" /> -->
+		<!-- <property name="DisplayType" value="blockMulti" /> -->
+        <!-- <property name="MultiBlockDim" value="3,1,3" /> -->
+      <!-- <property name="ImposterExchange" value="imposterBlock" param1="9"/> -->
+      <!-- <property name="OpenSound" value="open_door_metal"/> -->
+      <!-- <property name="CloseSound" value="close_door_metal"/> -->
+      <!-- <property class="RepairItems"> <property name="resourceWood" value="3"/> </property> -->
+      <!-- <drop event="Harvest" name="resourceWood" count="2" prob="1" tag="allHarvest"/> -->
+      <!-- <drop event="Destroy" count="0"/> -->
+	  <!-- <property name="RequiredPower" value="0"/> -->
+      <!-- <drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/> -->
+     <!-- <property name="Group" value="Tools/Traps,Science"/> -->
+      <!-- <property name="CustomIcon" value="HD Truck Elevator" /> -->
+	 <!-- </block>	 -->
+
+<!-- <block name="SlidingDoor"> -->
+ <!-- <property name="DescriptionKey" value="doorGroupDesc"/> -->
+      <!-- <property name="Class" value="Door"/> -->
+      <!-- <property name="Material" value="Mmetal"/> -->
+      <!-- <property name="LightOpacity" value="1"/> -->
+      <!-- <property name="Shape" value="ModelEntity"/> -->
+      <!-- <property name="Tag" value="Door"/> -->
+      <!-- <property name="Place" value="Door"/> -->
+      <!-- <property name="PlaceEverywhere" value="true"/> -->
+		<!-- <property name="Model" value="#@modfolder:Resources/slidingdoor.unity3d?SlidingDoor.prefab" /> -->
+		<!-- <property name="DisplayType" value="blockMulti" /> -->
+        <!-- <property name="MultiBlockDim" value="3,1,3" /> -->
+      <!-- <property name="ImposterExchange" value="imposterBlock" param1="9"/> -->
+      <!-- <property name="OpenSound" value="open_door_metal"/> -->
+      <!-- <property name="CloseSound" value="close_door_metal"/> -->
+      <!-- <property class="RepairItems"> <property name="resourceWood" value="3"/> </property> -->
+      <!-- <drop event="Harvest" name="resourceWood" count="2" prob="1" tag="allHarvest"/> -->
+      <!-- <drop event="Destroy" count="0"/> -->
+      <!-- <drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/> -->
+      <!-- <property name="FilterTags" value="fdecor,fdoors"/> -->
+      <!-- <property name="CustomIcon" value="HD Truck Elevator" /> -->
+	 <!-- </block>	 -->
+	
+	
+	
+<block name="+motionsensor">
+	<property name="Extends" value="motionsensor"/>
+	<property name="Model" value="#@modfolder:Resources/sensor.unity3d?sensor.prefab"/>	
+	<property name="RequiredPower" value="0"/>
+	<property name="YawRange" value="90"/>
+	<property name="PitchRange" value="90"/>	
+</block>
+</append>
+</configs>
