@@ -1,0 +1,1244 @@
+<Configs>
+<append xpath="/recipes">
+
+  <recipe name="GG_Kitchen_Appliances_Block_Variant" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+    <ingredient name="resourceForgedIron" count="5"/>
+    <ingredient name="resourceElectricParts" count="10"/>
+    <ingredient name="resourceSpring" count="5"/>
+    <ingredient name="resourceDuctTape" count="5"/>
+  </recipe>
+
+  <recipe name="GG_Kitchen_BigAppliance_Block_Variant" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+    <ingredient name="resourceForgedIron" count="20"/>
+    <ingredient name="resourceElectricParts" count="10"/>
+    <ingredient name="resourceMechanicalParts" count="10"/>
+    <ingredient name="resourceDuctTape" count="5"/>
+  </recipe>
+
+  <recipe name="GG_Kitchen_Type01_CabinetLow01_Block_Variant" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+    <ingredient name="resourceWood" count="5"/>
+    <ingredient name="resourceGlue" count="10"/>
+    <ingredient name="resourceForgedIron" count="2"/>
+    <ingredient name="resourceDuctTape" count="2"/>
+  </recipe>
+
+  <recipe name="GG_Kitchen_Type02_CabinetLow01_Block_Variant" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+    <ingredient name="resourceWood" count="5"/>
+    <ingredient name="resourceGlue" count="10"/>
+    <ingredient name="resourceForgedIron" count="2"/>
+    <ingredient name="resourceDuctTape" count="2"/>
+  </recipe>
+
+  <recipe name="GG_Kitchen_Bell_Block_Variant" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+    <ingredient name="resourceForgedIron" count="15"/>
+    <ingredient name="resourceMechanicalParts" count="10"/>
+    <ingredient name="resourceGlue" count="2"/>
+    <ingredient name="resourceDuctTape" count="2"/>
+  </recipe>
+
+
+
+  <!--START 06 RECIPES -->
+  
+
+  <recipe name="drinkJarBoiledWater" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_time="40" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+    <ingredient name="drinkJarRiverWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarPureMineralWater" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="drinkJarRiverWater" count="1"/>
+    <ingredient name="resourceCoal" count="1"/>
+    <ingredient name="resourceCropGoldenrodPlant" count="1"/>
+    <ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+  </recipe>
+
+
+  <recipe name="drinkJarCoffee" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropCoffeeBeans" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarBlackStrapCoffee" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropCoffeeBeans" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <ingredient name="resourceGunPowder" count="5"/>
+  </recipe>
+
+  <recipe name="drinkJarGoldenRodTea" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropGoldenrodPlant" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrainAlcohol" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolBeaker">
+    <ingredient name="foodCornMeal" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasAwesomeSauce" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="casinoCoin" count="50"/>
+    <ingredient name="foodHoney" count="5"/>
+    <ingredient name="foodCropMushrooms" count="5"/>
+    <ingredient name="ammoGasCan" count="10"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasLearningElixir" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanDogfood" count="2"/>
+    <ingredient name="drinkJarRedTea" count="2"/>
+    <ingredient name="resourceAcid" count="1"/>
+    <ingredient name="drinkJarBeer" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasMoonshine" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCornMeal" count="5"/>
+    <ingredient name="drinkJarGrainAlcohol" count="1"/>
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="resourceAcid" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarRedTea" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarRiverWater" count="1" craft_area="GG_Kitchen_BigAppliance06" tags="perkMasterChef">
+    <ingredient name="resourceSnowBall" count="1"/>
+    <ingredient name="drinkJarEmpty" count="1"/>
+  </recipe>
+
+  <recipe name="drugAntibiotics" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolBeaker" tags="learnable">
+    <ingredient name="foodMoldyBread" count="4"/>
+    <ingredient name="resourcePotassiumNitratePowder" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drugHerbalAntibiotics" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="learnable">
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="foodCropMushrooms" count="3"/>
+    <ingredient name="resourceCropChrysanthemumPlant" count="3"/>
+    <ingredient name="resourcePotassiumNitratePowder" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodBaconAndEggs" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodEgg" count="2"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodBakedPotato" count="1" craft_area="GG_Kitchen_BigAppliance06" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPotato" count="1"/>
+  </recipe>
+
+  <recipe name="foodBlueberryPie" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinPie" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinCheesecake" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarGrainAlcohol" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinBread" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodBoiledMeat" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodCanSham" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="drinkCanEmpty" count="1"/>
+    <ingredient name="foodRottingFlesh" count="1"/>
+    <ingredient name="resourceBone" count="5"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="resourcePaint" count="1"/>
+  </recipe>
+
+  <recipe name="foodCharredMeat" count="1" craft_area="GG_Kitchen_BigAppliance06" tags="perkMasterChef">
+    <ingredient name="foodRawMeat" count="5"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodChiliDog" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanChili" count="1"/>
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCornBread" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodCornBread" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodCornMeal" count="1">
+    <ingredient name="foodCropCorn" count="1"/>
+  </recipe>
+
+  <recipe name="foodCornOnTheCob" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropCorn" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodEggBoiled" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef">
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodFishTacos" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanSalmon" count="1"/>
+    <ingredient name="foodCornMeal" count="2"/>
+  </recipe>
+
+  <recipe name="foodGrilledMeat" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodHoboStew" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRottingFlesh" count="10"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-2" tags="foodRottingFlesh"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodMeatStew" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodShamChowder" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodShamSandwich" count="1"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodSteakAndPotato" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodVegetableStew" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="resourceGlue" count="1" craft_area="GG_Kitchen_BigAppliance06" craft_tool="toolCookingPot">
+    <ingredient name="resourceBone" count="7"/>
+    <ingredient name="drinkJarRiverWater" count="1"/>
+  </recipe>
+  
+  
+  
+  
+  
+  
+  <!--START 07 RECIPES-->
+
+  <recipe name="drinkJarBoiledWater" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_time="40" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+    <ingredient name="drinkJarRiverWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarPureMineralWater" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="drinkJarRiverWater" count="1"/>
+    <ingredient name="resourceCoal" count="1"/>
+    <ingredient name="resourceCropGoldenrodPlant" count="1"/>
+    <ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+  </recipe>
+
+
+  <recipe name="drinkJarCoffee" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropCoffeeBeans" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarBlackStrapCoffee" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropCoffeeBeans" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <ingredient name="resourceGunPowder" count="5"/>
+  </recipe>
+
+  <recipe name="drinkJarGoldenRodTea" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropGoldenrodPlant" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrainAlcohol" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolBeaker">
+    <ingredient name="foodCornMeal" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasAwesomeSauce" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="casinoCoin" count="50"/>
+    <ingredient name="foodHoney" count="5"/>
+    <ingredient name="foodCropMushrooms" count="5"/>
+    <ingredient name="ammoGasCan" count="10"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasLearningElixir" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanDogfood" count="2"/>
+    <ingredient name="drinkJarRedTea" count="2"/>
+    <ingredient name="resourceAcid" count="1"/>
+    <ingredient name="drinkJarBeer" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasMoonshine" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCornMeal" count="5"/>
+    <ingredient name="drinkJarGrainAlcohol" count="1"/>
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="resourceAcid" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarRedTea" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarRiverWater" count="1" craft_area="GG_Kitchen_BigAppliance07" tags="perkMasterChef">
+    <ingredient name="resourceSnowBall" count="1"/>
+    <ingredient name="drinkJarEmpty" count="1"/>
+  </recipe>
+
+  <recipe name="drugAntibiotics" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolBeaker" tags="learnable">
+    <ingredient name="foodMoldyBread" count="4"/>
+    <ingredient name="resourcePotassiumNitratePowder" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drugHerbalAntibiotics" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="learnable">
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="foodCropMushrooms" count="3"/>
+    <ingredient name="resourceCropChrysanthemumPlant" count="3"/>
+    <ingredient name="resourcePotassiumNitratePowder" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodBaconAndEggs" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodEgg" count="2"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodBakedPotato" count="1" craft_area="GG_Kitchen_BigAppliance07" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPotato" count="1"/>
+  </recipe>
+
+  <recipe name="foodBlueberryPie" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinPie" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinCheesecake" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarGrainAlcohol" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinBread" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodBoiledMeat" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodCanSham" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="drinkCanEmpty" count="1"/>
+    <ingredient name="foodRottingFlesh" count="1"/>
+    <ingredient name="resourceBone" count="5"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="resourcePaint" count="1"/>
+  </recipe>
+
+  <recipe name="foodCharredMeat" count="1" craft_area="GG_Kitchen_BigAppliance07" tags="perkMasterChef">
+    <ingredient name="foodRawMeat" count="5"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodChiliDog" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanChili" count="1"/>
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCornBread" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodCornBread" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodCornMeal" count="1">
+    <ingredient name="foodCropCorn" count="1"/>
+  </recipe>
+
+  <recipe name="foodCornOnTheCob" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropCorn" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodEggBoiled" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef">
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodFishTacos" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanSalmon" count="1"/>
+    <ingredient name="foodCornMeal" count="2"/>
+  </recipe>
+
+  <recipe name="foodGrilledMeat" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodHoboStew" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRottingFlesh" count="10"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-2" tags="foodRottingFlesh"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodMeatStew" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodShamChowder" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodShamSandwich" count="1"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodSteakAndPotato" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodVegetableStew" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="resourceGlue" count="1" craft_area="GG_Kitchen_BigAppliance07" craft_tool="toolCookingPot">
+    <ingredient name="resourceBone" count="7"/>
+    <ingredient name="drinkJarRiverWater" count="1"/>
+  </recipe>
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--START 08 RECIPES!!!!!!-->
+
+  <recipe name="drinkJarBoiledWater" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_time="40" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+    <ingredient name="drinkJarRiverWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarPureMineralWater" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="drinkJarRiverWater" count="1"/>
+    <ingredient name="resourceCoal" count="1"/>
+    <ingredient name="resourceCropGoldenrodPlant" count="1"/>
+    <ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+  </recipe>
+
+
+  <recipe name="drinkJarCoffee" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropCoffeeBeans" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarBlackStrapCoffee" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropCoffeeBeans" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <ingredient name="resourceGunPowder" count="5"/>
+  </recipe>
+
+  <recipe name="drinkJarGoldenRodTea" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropGoldenrodPlant" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrainAlcohol" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolBeaker">
+    <ingredient name="foodCornMeal" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasAwesomeSauce" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="casinoCoin" count="50"/>
+    <ingredient name="foodHoney" count="5"/>
+    <ingredient name="foodCropMushrooms" count="5"/>
+    <ingredient name="ammoGasCan" count="10"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasLearningElixir" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanDogfood" count="2"/>
+    <ingredient name="drinkJarRedTea" count="2"/>
+    <ingredient name="resourceAcid" count="1"/>
+    <ingredient name="drinkJarBeer" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasMoonshine" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCornMeal" count="5"/>
+    <ingredient name="drinkJarGrainAlcohol" count="1"/>
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="resourceAcid" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarRedTea" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarRiverWater" count="1" craft_area="GG_Kitchen_BigAppliance08" tags="perkMasterChef">
+    <ingredient name="resourceSnowBall" count="1"/>
+    <ingredient name="drinkJarEmpty" count="1"/>
+  </recipe>
+
+  <recipe name="drugAntibiotics" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolBeaker" tags="learnable">
+    <ingredient name="foodMoldyBread" count="4"/>
+    <ingredient name="resourcePotassiumNitratePowder" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drugHerbalAntibiotics" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="learnable">
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="foodCropMushrooms" count="3"/>
+    <ingredient name="resourceCropChrysanthemumPlant" count="3"/>
+    <ingredient name="resourcePotassiumNitratePowder" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodBaconAndEggs" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodEgg" count="2"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodBakedPotato" count="1" craft_area="GG_Kitchen_BigAppliance08" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPotato" count="1"/>
+  </recipe>
+
+  <recipe name="foodBlueberryPie" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinPie" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinCheesecake" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarGrainAlcohol" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinBread" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodBoiledMeat" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodCanSham" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="drinkCanEmpty" count="1"/>
+    <ingredient name="foodRottingFlesh" count="1"/>
+    <ingredient name="resourceBone" count="5"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="resourcePaint" count="1"/>
+  </recipe>
+
+  <recipe name="foodCharredMeat" count="1" craft_area="GG_Kitchen_BigAppliance08" tags="perkMasterChef">
+    <ingredient name="foodRawMeat" count="5"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodChiliDog" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanChili" count="1"/>
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCornBread" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodCornBread" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodCornMeal" count="1">
+    <ingredient name="foodCropCorn" count="1"/>
+  </recipe>
+
+  <recipe name="foodCornOnTheCob" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropCorn" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodEggBoiled" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef">
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodFishTacos" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanSalmon" count="1"/>
+    <ingredient name="foodCornMeal" count="2"/>
+  </recipe>
+
+  <recipe name="foodGrilledMeat" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodHoboStew" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRottingFlesh" count="10"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-2" tags="foodRottingFlesh"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodMeatStew" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodShamChowder" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodShamSandwich" count="1"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodSteakAndPotato" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodVegetableStew" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="resourceGlue" count="1" craft_area="GG_Kitchen_BigAppliance08" craft_tool="toolCookingPot">
+    <ingredient name="resourceBone" count="7"/>
+    <ingredient name="drinkJarRiverWater" count="1"/>
+  </recipe>
+ 
+  
+  
+  
+  
+  
+  
+  <!--START 09 RECIPES-->
+    <recipe name="drinkJarBoiledWater" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_time="40" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+    <ingredient name="drinkJarRiverWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarPureMineralWater" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="drinkJarRiverWater" count="1"/>
+    <ingredient name="resourceCoal" count="1"/>
+    <ingredient name="resourceCropGoldenrodPlant" count="1"/>
+    <ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+  </recipe>
+
+
+  <recipe name="drinkJarCoffee" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropCoffeeBeans" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarBlackStrapCoffee" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropCoffeeBeans" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <ingredient name="resourceGunPowder" count="5"/>
+  </recipe>
+
+  <recipe name="drinkJarGoldenRodTea" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropGoldenrodPlant" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrainAlcohol" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolBeaker">
+    <ingredient name="foodCornMeal" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasAwesomeSauce" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="casinoCoin" count="50"/>
+    <ingredient name="foodHoney" count="5"/>
+    <ingredient name="foodCropMushrooms" count="5"/>
+    <ingredient name="ammoGasCan" count="10"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasLearningElixir" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanDogfood" count="2"/>
+    <ingredient name="drinkJarRedTea" count="2"/>
+    <ingredient name="resourceAcid" count="1"/>
+    <ingredient name="drinkJarBeer" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasMoonshine" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCornMeal" count="5"/>
+    <ingredient name="drinkJarGrainAlcohol" count="1"/>
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="resourceAcid" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarRedTea" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarRiverWater" count="1" craft_area="GG_Kitchen_BigAppliance09" tags="perkMasterChef">
+    <ingredient name="resourceSnowBall" count="1"/>
+    <ingredient name="drinkJarEmpty" count="1"/>
+  </recipe>
+
+  <recipe name="drugAntibiotics" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolBeaker" tags="learnable">
+    <ingredient name="foodMoldyBread" count="4"/>
+    <ingredient name="resourcePotassiumNitratePowder" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drugHerbalAntibiotics" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="learnable">
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="foodCropMushrooms" count="3"/>
+    <ingredient name="resourceCropChrysanthemumPlant" count="3"/>
+    <ingredient name="resourcePotassiumNitratePowder" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodBaconAndEggs" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodEgg" count="2"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodBakedPotato" count="1" craft_area="GG_Kitchen_BigAppliance09" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPotato" count="1"/>
+  </recipe>
+
+  <recipe name="foodBlueberryPie" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinPie" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinCheesecake" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarGrainAlcohol" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinBread" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodBoiledMeat" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodCanSham" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="drinkCanEmpty" count="1"/>
+    <ingredient name="foodRottingFlesh" count="1"/>
+    <ingredient name="resourceBone" count="5"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="resourcePaint" count="1"/>
+  </recipe>
+
+  <recipe name="foodCharredMeat" count="1" craft_area="GG_Kitchen_BigAppliance09" tags="perkMasterChef">
+    <ingredient name="foodRawMeat" count="5"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodChiliDog" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanChili" count="1"/>
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCornBread" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodCornBread" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodCornMeal" count="1">
+    <ingredient name="foodCropCorn" count="1"/>
+  </recipe>
+
+  <recipe name="foodCornOnTheCob" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropCorn" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodEggBoiled" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef">
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodFishTacos" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanSalmon" count="1"/>
+    <ingredient name="foodCornMeal" count="2"/>
+  </recipe>
+
+  <recipe name="foodGrilledMeat" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodHoboStew" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRottingFlesh" count="10"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-2" tags="foodRottingFlesh"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodMeatStew" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodShamChowder" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodShamSandwich" count="1"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodSteakAndPotato" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodVegetableStew" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="resourceGlue" count="1" craft_area="GG_Kitchen_BigAppliance09" craft_tool="toolCookingPot">
+    <ingredient name="resourceBone" count="7"/>
+    <ingredient name="drinkJarRiverWater" count="1"/>
+  </recipe>
+  
+  
+  <!--START 10 RECIPES-->
+
+  <recipe name="drinkJarBoiledWater" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_time="40" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+    <ingredient name="drinkJarRiverWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarPureMineralWater" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="drinkJarRiverWater" count="1"/>
+    <ingredient name="resourceCoal" count="1"/>
+    <ingredient name="resourceCropGoldenrodPlant" count="1"/>
+    <ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+  </recipe>
+
+
+  <recipe name="drinkJarCoffee" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropCoffeeBeans" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarBlackStrapCoffee" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropCoffeeBeans" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <ingredient name="resourceGunPowder" count="5"/>
+  </recipe>
+
+  <recipe name="drinkJarGoldenRodTea" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropGoldenrodPlant" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrainAlcohol" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolBeaker">
+    <ingredient name="foodCornMeal" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasAwesomeSauce" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="casinoCoin" count="50"/>
+    <ingredient name="foodHoney" count="5"/>
+    <ingredient name="foodCropMushrooms" count="5"/>
+    <ingredient name="ammoGasCan" count="10"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasLearningElixir" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanDogfood" count="2"/>
+    <ingredient name="drinkJarRedTea" count="2"/>
+    <ingredient name="resourceAcid" count="1"/>
+    <ingredient name="drinkJarBeer" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarGrandpasMoonshine" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCornMeal" count="5"/>
+    <ingredient name="drinkJarGrainAlcohol" count="1"/>
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="resourceAcid" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarRedTea" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drinkJarRiverWater" count="1" craft_area="GG_Kitchen_BigAppliance10" tags="perkMasterChef">
+    <ingredient name="resourceSnowBall" count="1"/>
+    <ingredient name="drinkJarEmpty" count="1"/>
+  </recipe>
+
+  <recipe name="drugAntibiotics" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolBeaker" tags="learnable">
+    <ingredient name="foodMoldyBread" count="4"/>
+    <ingredient name="resourcePotassiumNitratePowder" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="drugHerbalAntibiotics" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="learnable">
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="foodCropMushrooms" count="3"/>
+    <ingredient name="resourceCropChrysanthemumPlant" count="3"/>
+    <ingredient name="resourcePotassiumNitratePowder" count="3"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodBaconAndEggs" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodEgg" count="2"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodBakedPotato" count="1" craft_area="GG_Kitchen_BigAppliance10" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPotato" count="1"/>
+  </recipe>
+
+  <recipe name="foodBlueberryPie" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropBlueberries" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinPie" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinCheesecake" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarGrainAlcohol" count="1"/>
+  </recipe>
+
+  <recipe name="foodPumpkinBread" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPumpkin" count="5"/>
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodBoiledMeat" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodCanSham" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="drinkCanEmpty" count="1"/>
+    <ingredient name="foodRottingFlesh" count="1"/>
+    <ingredient name="resourceBone" count="5"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="resourcePaint" count="1"/>
+  </recipe>
+
+  <recipe name="foodCharredMeat" count="1" craft_area="GG_Kitchen_BigAppliance10" tags="perkMasterChef">
+    <ingredient name="foodRawMeat" count="5"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodChiliDog" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanChili" count="1"/>
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCornBread" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodCornBread" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCornMeal" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodCornMeal" count="1">
+    <ingredient name="foodCropCorn" count="1"/>
+  </recipe>
+
+  <recipe name="foodCornOnTheCob" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropCorn" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodEggBoiled" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef">
+    <ingredient name="foodEgg" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodFishTacos" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodCanSalmon" count="1"/>
+    <ingredient name="foodCornMeal" count="2"/>
+  </recipe>
+
+  <recipe name="foodGrilledMeat" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodHoboStew" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRottingFlesh" count="10"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-2" tags="foodRottingFlesh"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodMeatStew" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodShamChowder" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodShamSandwich" count="1"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="foodSteakAndPotato" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingGrill" tags="perkMasterChef,learnable">
+    <ingredient name="foodRawMeat" count="5"/>
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="resourceAnimalFat" count="1"/>
+    <effect_group>
+      <passive_effect name="CraftingIngredientCount" level="2,5" operation="base_add" value="-1" tags="foodRawMeat"/>
+    </effect_group>
+  </recipe>
+
+  <recipe name="foodVegetableStew" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+    <ingredient name="foodCropPotato" count="2"/>
+    <ingredient name="foodCropCorn" count="2"/>
+    <ingredient name="foodCropMushrooms" count="2"/>
+    <ingredient name="drinkJarBoiledWater" count="1"/>
+  </recipe>
+
+  <recipe name="resourceGlue" count="1" craft_area="GG_Kitchen_BigAppliance10" craft_tool="toolCookingPot">
+    <ingredient name="resourceBone" count="7"/>
+    <ingredient name="drinkJarRiverWater" count="1"/>
+  </recipe>
+  
+  
+  
+  
+</append>
+</Configs>

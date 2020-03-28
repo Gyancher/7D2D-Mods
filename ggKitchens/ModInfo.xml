@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="ggKitchens" />
+		<Description value="Tons of new items to create a kitchen." />
+		<Author value="GoodlyGear" />
+		<Version value="1.0" compat="A18.0, A18.1b7" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,57 @@
+<Configs>
+<append xpath="/xui/ruleset">
+  
+  <window_group name="workstation_GG_Kitchen_BigAppliance06" controller="XUiC_WorkstationWindowGroup">
+    <window name="windowCraftingList"/>
+    <window name="craftingInfoPanel"/>
+    <window name="windowCraftingQueue"/>
+    <window name="windowToolsCampfire" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+
+  <window_group name="workstation_GG_Kitchen_BigAppliance07" controller="XUiC_WorkstationWindowGroup">
+    <window name="windowCraftingList"/>
+    <window name="craftingInfoPanel"/>
+    <window name="windowCraftingQueue"/>
+    <window name="windowToolsCampfire" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+
+  <window_group name="workstation_GG_Kitchen_BigAppliance08" controller="XUiC_WorkstationWindowGroup">
+    <window name="windowCraftingList"/>
+    <window name="craftingInfoPanel"/>
+    <window name="windowCraftingQueue"/>
+    <window name="windowToolsCampfire" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+
+  <window_group name="workstation_GG_Kitchen_BigAppliance09" controller="XUiC_WorkstationWindowGroup">
+    <window name="windowCraftingList"/>
+    <window name="craftingInfoPanel"/>
+    <window name="windowCraftingQueue"/>
+    <window name="windowToolsCampfire" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+
+  <window_group name="workstation_GG_Kitchen_BigAppliance10" controller="XUiC_WorkstationWindowGroup">
+    <window name="windowCraftingList"/>
+    <window name="craftingInfoPanel"/>
+    <window name="windowCraftingQueue"/>
+    <window name="windowToolsCampfire" />
+    <window name="windowFuel" />
+    <window name="windowOutput" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
+  
+  
+ 
+</append>
+</Configs>

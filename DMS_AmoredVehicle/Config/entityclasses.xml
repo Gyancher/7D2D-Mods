@@ -1,0 +1,43 @@
+<configs>
+	<append xpath="/entity_classes">
+		<entity_class name="vehicleAmoredWinterDMS">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/AmoredVehicleDMS.unity3d?AmoredWinterDMS"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="7"/>
+			<property name="Explosion.RadiusEntities" value="7"/>
+			<property name="Explosion.BlockDamage" value="5000"/>
+			<property name="Explosion.EntityDamage" value="5000"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_4x4"/>
+		</entity_class>	
+
+		<entity_class name="vehicleAmoredSummerDMS">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/AmoredVehicleDMS.unity3d?AmoredSummerDMS"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="7"/>
+			<property name="Explosion.RadiusEntities" value="7"/>
+			<property name="Explosion.BlockDamage" value="5000"/>
+			<property name="Explosion.EntityDamage" value="5000"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_4x4"/>
+		</entity_class>		
+	 </append>
+</configs>

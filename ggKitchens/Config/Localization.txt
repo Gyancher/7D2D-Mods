@@ -1,0 +1,91 @@
+﻿Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+GG_Kitchen_Appliances_Block_Variant,blocks,Variant,New,GG's Small Appliances,,,,,
+GG_Kitchen_Appliances_SelectorDesc,blocks,Block,New,Microwaves Coffee Makers Blenders and Toasters,,,,,
+
+GG_Kitchen_Appliances01,blocks,Block,New,GG's Blender 01,,,,,
+GG_Kitchen_Appliances02,blocks,Block,New,GG's Blender 02,,,,,
+GG_Kitchen_Appliances03,blocks,Block,New,GG's Blender 03,,,,,
+GG_Kitchen_Appliances04,blocks,Block,New,GG's COFFEE!!!,,,,,
+GG_Kitchen_Appliances05,blocks,Block,New,GG's Coffee Maker 01,,,,,
+GG_Kitchen_Appliances06,blocks,Block,New,GG's Coffee Maker 02,,,,,
+GG_Kitchen_Appliances07,blocks,Block,New,GG's Coffee Maker 03,,,,,
+GG_Kitchen_Appliances08,blocks,Block,New,GG's Microwave 01,,,,,
+GG_Kitchen_Appliances09,blocks,Block,New,GG's Microwave 02,,,,,
+GG_Kitchen_Appliances10,blocks,Block,New,GG's Microwave 03,,,,,
+GG_Kitchen_Appliances11,blocks,Block,New,GG's Microwave 04,,,,,
+GG_Kitchen_Appliances12,blocks,Block,New,GG's Microwave 05,,,,,
+GG_Kitchen_Appliances13,blocks,Block,New,GG's Toaster 01,,,,,
+GG_Kitchen_Appliances14,blocks,Block,New,GG's Toaster 02,,,,,
+GG_Kitchen_Appliances15,blocks,Block,New,GG's Toaster 03,,,,,
+
+GG_Kitchen_AppliancesDesc,blocks,Block,New,Just for decoration at the moment. Additional fucntions coming soon!,,,,,
+
+
+GG_Kitchen_BigAppliance_Block_Variant,blocks,Variant,New,GG's Big Appliances,,,,,
+GG_Kitchen_BigAppliances_SelectorDesc,blocks,Block,New,Fridges and Ovens,,,,,
+
+GG_Kitchen_BigAppliance01,blocks,Block,New,GG's Fridge 01,,,,,
+GG_Kitchen_BigAppliance02,blocks,Block,New,GG's Fridge 02,,,,,
+GG_Kitchen_BigAppliance03,blocks,Block,New,GG's Fridge 03,,,,,
+GG_Kitchen_BigAppliance04,blocks,Block,New,GG's Fridge 04,,,,,
+GG_Kitchen_BigAppliance05,blocks,Block,New,GG's Fridge 05,,,,,
+GG_Kitchen_BigAppliance06,blocks,Block,New,GG's Stove 01,,,,,
+GG_Kitchen_BigAppliance07,blocks,Block,New,GG's Stove 02,,,,,
+GG_Kitchen_BigAppliance08,blocks,Block,New,GG's Stove 03,,,,,
+GG_Kitchen_BigAppliance09,blocks,Block,New,GG's Stove 04,,,,,
+GG_Kitchen_BigAppliance10,blocks,Block,New,GG's Stove 05,,,,,
+
+GG_Kitchen_BigAppliancesDesc,blocks,Block,New,Just for decoration at the moment. Additional fucntions coming soon!,,,,,
+
+
+GG_Kitchen_Type01_CabinetLow01_Block_Variant,blocks,Variant,New,GG's Cabinet Type 01,,,,,
+GG_Kitchen_Type01_CabinetLow01_Block_VariantDesc,blocks,Block,New,SO PRETTY!,,,,,
+
+GG_Kitchen_Type01_CabinetLow01,blocks,Block,New,GG's Cabinet Type 01 Top 01,,,,,
+GG_Kitchen_Type01_CabinetLow02,blocks,Block,New,GG's Cabinet Type 01 Top 02,,,,,
+GG_Kitchen_Type01_CabinetLow03,blocks,Block,New,GG's Cabinet Type 01 Top 03,,,,,
+GG_Kitchen_Type01_CabinetLow04,blocks,Block,New,GG's Cabinet Type 01 Top 04,,,,,
+GG_Kitchen_Type01_CabinetLow05,blocks,Block,New,GG's Cabinet Type 01 Top 05,,,,,
+GG_Kitchen_Type01_CabinetLow06,blocks,Block,New,GG's Cabinet Type 01 Top 06,,,,,
+GG_Kitchen_Type01_CabinetTop01,blocks,Block,New,GG's Cabinet Type 01 Bottom 01,,,,,
+GG_Kitchen_Type01_CabinetTop02,blocks,Block,New,GG's Cabinet Type 01 Bottom 02,,,,,
+GG_Kitchen_Type01_CabinetTop03,blocks,Block,New,GG's Cabinet Type 01 Bottom 03,,,,,
+GG_Kitchen_Type01_CabinetTop04,blocks,Block,New,GG's Cabinet Type 01 Bottom 04,,,,,
+GG_Kitchen_Type01_CabinetTop05,blocks,Block,New,GG's Cabinet Type 01 Bottom 05,,,,,
+
+
+GG_Kitchen_Type01_CabinetDesc,blocks,Block,New,Just for decoration at the moment. Additional fucntions coming soon!,,,,,
+
+
+GG_Kitchen_Type02_CabinetLow01_Block_Variant,blocks,Variant,New,GG's Cabinet Type 02,,,,,
+GG_Kitchen_Type02_CabinetLow01_Block_VariantDesc,blocks,Block,New,SO PRETTY!,,,,,
+
+GG_Kitchen_Type02_CabinetLow01,blocks,Block,New,GG's Cabinet Type 02 Top 01,,,,,
+GG_Kitchen_Type02_CabinetLow02,blocks,Block,New,GG's Cabinet Type 02 Top 02,,,,,
+GG_Kitchen_Type02_CabinetLow03,blocks,Block,New,GG's Cabinet Type 02 Top 03,,,,,
+GG_Kitchen_Type02_CabinetLow04,blocks,Block,New,GG's Cabinet Type 02 Top 04,,,,,
+GG_Kitchen_Type02_CabinetLow05,blocks,Block,New,GG's Cabinet Type 02 Top 05,,,,,
+GG_Kitchen_Type02_CabinetLow06,blocks,Block,New,GG's Cabinet Type 02 Top 06,,,,,
+GG_Kitchen_Type02_CabinetLow07,blocks,Block,New,GG's Cabinet Type 02 Top 07,,,,,
+GG_Kitchen_Type02_CabinetLow08,blocks,Block,New,GG's Cabinet Type 02 Top 08,,,,,
+GG_Kitchen_Type02_CabinetTop01,blocks,Block,New,GG's Cabinet Type 02 Bottom 01,,,,,
+GG_Kitchen_Type02_CabinetTop02,blocks,Block,New,GG's Cabinet Type 02 Bottom 02,,,,,
+GG_Kitchen_Type02_CabinetTop03,blocks,Block,New,GG's Cabinet Type 02 Bottom 03,,,,,
+GG_Kitchen_Type02_CabinetTop04,blocks,Block,New,GG's Cabinet Type 02 Bottom 04,,,,,
+GG_Kitchen_Type02_CabinetTop05,blocks,Block,New,GG's Cabinet Type 02 Bottom 05,,,,,
+
+
+GG_Kitchen_Type02_CabinetDesc,blocks,Block,New,Just for decoration at the moment. Additional fucntions coming soon!,,,,,
+
+
+GG_Kitchen_Type01_CabinetDesc,blocks,Block,New,Just for decoration at the moment. Additional fucntions coming soon!,,,,,
+
+GG_Kitchen_Bell_Block_Variant,blocks,Variant,New,GG's Oven Hoods,,,,,
+GG_Kitchen_Bell_Block_VariantDesc,blocks,Block,New,Oooo shiny!,,,,,
+
+GG_Kitchen_Bell01,blocks,Block,New,GG's Oven Hood 01,,,,,
+GG_Kitchen_Bell02,blocks,Block,New,GG's Oven Hood 02,,,,,
+GG_Kitchen_Bell03,blocks,Block,New,GG's Oven Hood 03,,,,,
+GG_Kitchen_Bell04,blocks,Block,New,GG's Oven Hood 04,,,,,
+GG_Kitchen_Bell05,blocks,Block,New,GG's Oven Hood 05,,,,,

@@ -1,0 +1,1012 @@
+<Configs>
+
+  <append xpath="/blocks">
+
+<!-- VARIANT NUMBERS AS FOLLOWS -->
+<!--0150, 0210, 0220, 0290, 0790, 0780, 0732, 0740, 0440, O580, 0570, 0300, 0340, 0050, 0350, 0200, 0420, 0910, 0240, 0440, 0230, 0260, 0370, 0080, 0060, 0500, 0530, 0590, 0280, 0330, 0110, 0320, 0110, 0090, 0360, 0390, 0400, 0255, 0171-->
+     
+<block name="GG_Kitchen_Appliances_Block_Variant">
+	<property name="Extends" value="flagstoneBlock"/>
+	<property name="CustomIcon" value="GG_Kitchen_Appliances01"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="GG_Kitchen_Appliances_SelectorDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true" />
+	<property name="PlaceAltBlockValue" value="GG_Kitchen_Appliances01,GG_Kitchen_Appliances02,GG_Kitchen_Appliances03,GG_Kitchen_Appliances04,GG_Kitchen_Appliances05,GG_Kitchen_Appliances06,GG_Kitchen_Appliances07,GG_Kitchen_Appliances08,GG_Kitchen_Appliances09,GG_Kitchen_Appliances10,GG_Kitchen_Appliances11,GG_Kitchen_Appliances12,GG_Kitchen_Appliances13,GG_Kitchen_Appliances14,GG_Kitchen_Appliances15"/>
+</block>  
+  
+<block name="GG_Kitchen_Appliances_Master_No_Upgrade"> <!-- was stoneToAdobeMaster -->
+	<property name="Group" value="Building,advBuilding"/>
+
+	<property name="Material" value="Mmetal"/> <!-- 500 -->
+  <property name="MaxDamage" value="500"/>
+	<!-- <property name="ImposterExchange" value="imposterBlock" param1="63"/> -->
+	<property name="CreativeMode" value="None"/>
+	<property class="RepairItems"> <property name="resourceScrapIron" value="5"/> </property>
+	<drop event="Harvest" name="resourceScrapIron" count="2" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<property name="FilterTags" value="fbuilding,fbrick"/>
+	<property name="SortOrder1" value="40a0"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+   <block name="GG_Kitchen_Appliances_Master"> <!-- was stoneToAdobeMaster -->
+	<property name="Extends" value="GG_Kitchen_Appliances_Master_No_Upgrade"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="DescriptionKey" value="GG_Kitchen_AppliancesDesc"/>
+</block>
+    
+  <block name="GG_Kitchen_Appliances01">
+	  <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+	  <property name="SortOrder2" value="0001"/> <!-- SortShape -->
+    <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances01.prefab" />
+  	<property name="DisplayType" value="blockMulti"/>
+	  <property name="MultiBlockDim" value="1,1,1"/>
+   </block>
+
+    <block name="GG_Kitchen_Appliances02">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances02.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Appliances03">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances03.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Appliances04">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances04.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Appliances05">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances05.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Appliances06">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances06.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Appliances07">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances07.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Appliances08">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances08.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Appliances09">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances09.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Appliances10">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances10.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Appliances11">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances11.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Appliances12">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances12.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Appliances13">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances13.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Appliances14">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances14.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Appliances15">
+      <property name="Extends" value="GG_Kitchen_Appliances_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Appliances.unity3d?GG_Kitchen_Appliances15.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <block name="GG_Kitchen_BigAppliance_Block_Variant">
+      <property name="Extends" value="flagstoneBlock"/>
+      <property name="CustomIcon" value="GG_BathroomMirror01"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="DescriptionKey" value="GG_Kitchen_BigAppliances_SelectorDesc"/>
+      <property name="ItemTypeIcon" value="all_blocks"/>
+      <property name="SelectAlternates" value="true" />
+      <property name="PlaceAltBlockValue" value="GG_Kitchen_BigAppliance01,GG_Kitchen_BigAppliance02,GG_Kitchen_BigAppliance03,GG_Kitchen_BigAppliance04,GG_Kitchen_BigAppliance05,GG_Kitchen_BigAppliance06,GG_Kitchen_BigAppliance07,GG_Kitchen_BigAppliance08,GG_Kitchen_BigAppliance09,GG_Kitchen_BigAppliance10"/>
+    </block>
+
+    <block name="GG_Kitchen_BigAppliance_Master_No_Upgrade">
+      <!-- was stoneToAdobeMaster -->
+      <property name="Group" value="Building,advBuilding"/>
+        <property name="MaxDamage" value="3000"/>
+      <property name="Material" value="Mmetal"/>
+      <!-- 500 -->
+      <!-- <property name="ImposterExchange" value="imposterBlock" param1="63"/> -->
+      <property name="CreativeMode" value="None"/>
+      <property class="RepairItems">
+        <property name="resourceScrapIron" value="5"/>
+      </property>
+      <drop event="Harvest" name="resourceScrapIron" count="2" tag="allHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <property name="FilterTags" value="fbuilding,fbrick"/>
+      <property name="SortOrder1" value="40a0"/>
+      <property name="SortOrder2" value="0002"/>
+    </block>
+
+    <block name="GG_Kitchen_BigAppliance_Master">
+      <!-- was stoneToAdobeMaster -->
+      <property name="Extends" value="GG_Kitchen_BigAppliance_Master_No_Upgrade"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="DescriptionKey" value="GG_Kitchen_BigAppliancesDesc"/>
+    </block>
+
+    <block name="GG_Kitchen_BigAppliance01">
+      <property name="LootList" value="1"/>
+      <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_BigAppliance_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_BigAppliance.unity3d?GG_Kitchen_BigAppliance01.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,2,1"/>
+    </block>
+
+    <block name="GG_Kitchen_BigAppliance02">
+      <property name="LootList" value="1"/>
+      <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_BigAppliance_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_BigAppliance.unity3d?GG_Kitchen_BigAppliance02.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,2,1"/>
+    </block>
+
+    <block name="GG_Kitchen_BigAppliance03">
+      <property name="LootList" value="1"/>
+      <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_BigAppliance_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_BigAppliance.unity3d?GG_Kitchen_BigAppliance03.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="2,3,1"/>
+    </block>
+
+    <block name="GG_Kitchen_BigAppliance04">
+      <property name="LootList" value="1"/>
+      <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_BigAppliance_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_BigAppliance.unity3d?GG_Kitchen_BigAppliance04.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="2,3,1"/>
+    </block>
+
+    <block name="GG_Kitchen_BigAppliance05">
+      <property name="LootList" value="1"/>
+      <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_BigAppliance_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_BigAppliance.unity3d?GG_Kitchen_BigAppliance05.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="2,3,1"/>
+    </block>
+
+    <block name="GG_Kitchen_BigAppliance06">
+      <property name="Class" value="Campfire"/>
+      <property name="Material" value="MstoneNoGlue"/>
+      <property name="MaxDamage" value="100"/>
+      <property name="StabilitySupport" value="false"/>
+      <!-- build restriction -->
+      <property name="ImposterDontBlock" value="true"/>
+      <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+      <property name="IsTerrainDecoration" value="true"/>
+      <property name="ParticleName" value="campfire"/>
+      <property name="ParticleOffset" value="0.5,1,0.5"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="HeatMapStrength" value="5"/>
+      <property name="HeatMapTime" value="5000"/>
+      <property name="HeatMapFrequency" value="1000"/>
+      <property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+      <property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+
+      <property class="Workstation">
+        <property name="Modules" value="tools,output,fuel,input"/>
+        <property name="Collide" value="melee,bullet,arrow,rocket"/>
+      </property>
+      <property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+      <property name="CraftActionName" value="lblContextActionCook"/>
+      <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+      <property name="OpenSound" value="campfire_open"/>
+      <property name="CloseSound" value="campfire_close"/>
+      <property name="CraftSound" value="campfire_cook_click"/>
+      <property name="CraftCompleteSound" value="campfire_complete_item"/>
+      <property name="WorkstationJournalTip" value="campfireTip"/>
+
+      <property class="RepairItems">
+        <property name="resourceRockSmall" value="8"/>
+      </property>
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+      <property name="DescriptionKey" value="campfireDesc"/>
+      <property name="EconomicValue" value="5"/>
+      <property name="EconomicBundleSize" value="1"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="FilterTags" value="fdecor,fother,ffurniture"/>
+      <property name="SortOrder1" value="70i0"/>
+      
+      <property name="Extends" value="GG_Kitchen_BigAppliance_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_BigAppliance.unity3d?GG_Kitchen_BigAppliance06.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_BigAppliance07">
+      <property name="Class" value="Campfire"/>
+      <property name="Material" value="MstoneNoGlue"/>
+      <property name="MaxDamage" value="100"/>
+      <property name="StabilitySupport" value="false"/>
+      <!-- build restriction -->
+      <property name="ImposterDontBlock" value="true"/>
+      <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+      <property name="IsTerrainDecoration" value="true"/>
+      <property name="ParticleName" value="campfire"/>
+      <property name="ParticleOffset" value="0.5,1,0.5"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="HeatMapStrength" value="5"/>
+      <property name="HeatMapTime" value="5000"/>
+      <property name="HeatMapFrequency" value="1000"/>
+      <property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+      <property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+
+      <property class="Workstation">
+        <property name="Modules" value="tools,output,fuel,input"/>
+        <property name="Collide" value="melee,bullet,arrow,rocket"/>
+      </property>
+      <property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+      <property name="CraftActionName" value="lblContextActionCook"/>
+      <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+      <property name="OpenSound" value="campfire_open"/>
+      <property name="CloseSound" value="campfire_close"/>
+      <property name="CraftSound" value="campfire_cook_click"/>
+      <property name="CraftCompleteSound" value="campfire_complete_item"/>
+      <property name="WorkstationJournalTip" value="campfireTip"/>
+
+      <property class="RepairItems">
+        <property name="resourceRockSmall" value="8"/>
+      </property>
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+      <property name="DescriptionKey" value="campfireDesc"/>
+      <property name="EconomicValue" value="5"/>
+      <property name="EconomicBundleSize" value="1"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="FilterTags" value="fdecor,fother,ffurniture"/>
+      <property name="SortOrder1" value="70i0"/>
+      
+      <property name="Extends" value="GG_Kitchen_BigAppliance_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_BigAppliance.unity3d?GG_Kitchen_BigAppliance07.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_BigAppliance08">
+      <property name="Class" value="Campfire"/>
+      <property name="Material" value="MstoneNoGlue"/>
+      <property name="MaxDamage" value="100"/>
+      <property name="StabilitySupport" value="false"/>
+      <!-- build restriction -->
+      <property name="ImposterDontBlock" value="true"/>
+      <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+      <property name="IsTerrainDecoration" value="true"/>
+      <property name="ParticleName" value="campfire"/>
+      <property name="ParticleOffset" value="0.5,1,0.5"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="HeatMapStrength" value="5"/>
+      <property name="HeatMapTime" value="5000"/>
+      <property name="HeatMapFrequency" value="1000"/>
+      <property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+      <property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+
+      <property class="Workstation">
+        <property name="Modules" value="tools,output,fuel,input"/>
+        <property name="Collide" value="melee,bullet,arrow,rocket"/>
+      </property>
+      <property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+      <property name="CraftActionName" value="lblContextActionCook"/>
+      <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+      <property name="OpenSound" value="campfire_open"/>
+      <property name="CloseSound" value="campfire_close"/>
+      <property name="CraftSound" value="campfire_cook_click"/>
+      <property name="CraftCompleteSound" value="campfire_complete_item"/>
+      <property name="WorkstationJournalTip" value="campfireTip"/>
+
+      <property class="RepairItems">
+        <property name="resourceRockSmall" value="8"/>
+      </property>
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+      <property name="DescriptionKey" value="campfireDesc"/>
+      <property name="EconomicValue" value="5"/>
+      <property name="EconomicBundleSize" value="1"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="FilterTags" value="fdecor,fother,ffurniture"/>
+      <property name="SortOrder1" value="70i0"/>
+      
+      <property name="Extends" value="GG_Kitchen_BigAppliance_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_BigAppliance.unity3d?GG_Kitchen_BigAppliance08.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_BigAppliance09">
+      <property name="Class" value="Campfire"/>
+      <property name="Material" value="MstoneNoGlue"/>
+      <property name="MaxDamage" value="100"/>
+      <property name="StabilitySupport" value="false"/>
+      <!-- build restriction -->
+      <property name="ImposterDontBlock" value="true"/>
+      <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+      <property name="IsTerrainDecoration" value="true"/>
+      <property name="ParticleName" value="campfire"/>
+      <property name="ParticleOffset" value="0.5,1,0.5"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="HeatMapStrength" value="5"/>
+      <property name="HeatMapTime" value="5000"/>
+      <property name="HeatMapFrequency" value="1000"/>
+      <property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+      <property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+
+      <property class="Workstation">
+        <property name="Modules" value="tools,output,fuel,input"/>
+        <property name="Collide" value="melee,bullet,arrow,rocket"/>
+      </property>
+      <property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+      <property name="CraftActionName" value="lblContextActionCook"/>
+      <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+      <property name="OpenSound" value="campfire_open"/>
+      <property name="CloseSound" value="campfire_close"/>
+      <property name="CraftSound" value="campfire_cook_click"/>
+      <property name="CraftCompleteSound" value="campfire_complete_item"/>
+      <property name="WorkstationJournalTip" value="campfireTip"/>
+
+      <property class="RepairItems">
+        <property name="resourceRockSmall" value="8"/>
+      </property>
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+      <property name="DescriptionKey" value="campfireDesc"/>
+      <property name="EconomicValue" value="5"/>
+      <property name="EconomicBundleSize" value="1"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="FilterTags" value="fdecor,fother,ffurniture"/>
+      <property name="SortOrder1" value="70i0"/>
+      
+      <property name="Extends" value="GG_Kitchen_BigAppliance_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_BigAppliance.unity3d?GG_Kitchen_BigAppliance09.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_BigAppliance10">
+      <property name="Class" value="Campfire"/>
+      <property name="Material" value="MstoneNoGlue"/>
+      <property name="MaxDamage" value="100"/>
+      <property name="StabilitySupport" value="false"/>
+      <!-- build restriction -->
+      <property name="ImposterDontBlock" value="true"/>
+      <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+      <property name="IsTerrainDecoration" value="true"/>
+      <property name="ParticleName" value="campfire"/>
+      <property name="ParticleOffset" value="0.5,1,0.5"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="HeatMapStrength" value="5"/>
+      <property name="HeatMapTime" value="5000"/>
+      <property name="HeatMapFrequency" value="1000"/>
+      <property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+      <property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+
+      <property class="Workstation">
+        <property name="Modules" value="tools,output,fuel,input"/>
+        <property name="Collide" value="melee,bullet,arrow,rocket"/>
+      </property>
+      <property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+      <property name="CraftActionName" value="lblContextActionCook"/>
+      <property name="CraftIcon" value="ui_game_symbol_spatula"/>
+      <property name="OpenSound" value="campfire_open"/>
+      <property name="CloseSound" value="campfire_close"/>
+      <property name="CraftSound" value="campfire_cook_click"/>
+      <property name="CraftCompleteSound" value="campfire_complete_item"/>
+      <property name="WorkstationJournalTip" value="campfireTip"/>
+
+      <property class="RepairItems">
+        <property name="resourceRockSmall" value="8"/>
+      </property>
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="" count="0" tag="salvageHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+      <property name="DescriptionKey" value="campfireDesc"/>
+      <property name="EconomicValue" value="5"/>
+      <property name="EconomicBundleSize" value="1"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="FilterTags" value="fdecor,fother,ffurniture"/>
+      <property name="SortOrder1" value="70i0"/>
+      
+      <property name="Extends" value="GG_Kitchen_BigAppliance_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_BigAppliance.unity3d?GG_Kitchen_BigAppliance10.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+
+
+
+
+
+
+
+
+
+
+    <block name="GG_Kitchen_Type01_CabinetLow01_Block_Variant">
+      <property name="Extends" value="flagstoneBlock"/>
+      <property name="CustomIcon" value="GG_Kitchen_Type01_CabinetLow01"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="DescriptionKey" value="GG_Kitchen_Type01_CabinetLow01_Block_VariantDesc"/>
+      <property name="ItemTypeIcon" value="all_blocks"/>
+      <property name="SelectAlternates" value="true" />
+      <property name="PlaceAltBlockValue" value="GG_Kitchen_Type01_CabinetLow01,GG_Kitchen_Type01_CabinetLow02,GG_Kitchen_Type01_CabinetLow03,GG_Kitchen_Type01_CabinetLow04,GG_Kitchen_Type01_CabinetLow05,GG_Kitchen_Type01_CabinetLow06,GG_Kitchen_Type01_CabinetTop01,GG_Kitchen_Type01_CabinetTop02,GG_Kitchen_Type01_CabinetTop03,GG_Kitchen_Type01_CabinetTop04,GG_Kitchen_Type01_CabinetTop05"/>
+    </block>
+
+    <block name="GG_Kitchen_Type01_CabinetLow01_Master_No_Upgrade">
+      <!-- was stoneToAdobeMaster -->
+      <property name="Group" value="Building,advBuilding"/>
+
+              <property name="MaxDamage" value="300"/>
+      <property name="Material" value="MwoodReinforced"/>
+      <!-- 500 -->
+      <!-- <property name="ImposterExchange" value="imposterBlock" param1="63"/> -->
+      <property name="CreativeMode" value="None"/>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5"/>
+      </property>
+      <drop event="Harvest" name="resourceWood" count="2" tag="allHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <property name="FilterTags" value="fbuilding,fbrick"/>
+      <property name="SortOrder1" value="40a0"/>
+      <property name="SortOrder2" value="0002"/>
+    </block>
+
+    <block name="GG_Kitchen_Type01_CabinetLow01_Master">
+      <!-- was stoneToAdobeMaster -->
+      <property name="Extends" value="GG_Kitchen_Type01_CabinetLow01_Master_No_Upgrade"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="DescriptionKey" value="GG_Kitchen_Type01_CabinetDesc"/>
+    </block>
+
+    <block name="GG_Kitchen_Type01_CabinetLow01">
+        <property name="LootList" value="1"/>
+      <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type01_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type01_Cabinets.unity3d?GG_Kitchen_Type01_CabinetLow01.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type01_CabinetLow02">
+        <property name="LootList" value="1"/>
+      <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type01_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type01_Cabinets.unity3d?GG_Kitchen_Type01_CabinetLow02.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type01_CabinetLow03">
+      <property name="Extends" value="GG_Kitchen_Type01_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type01_Cabinets.unity3d?GG_Kitchen_Type01_CabinetLow03.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type01_CabinetLow04">
+      <property name="Extends" value="GG_Kitchen_Type01_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type01_Cabinets.unity3d?GG_Kitchen_Type01_CabinetLow04.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type01_CabinetLow05">
+      <property name="Extends" value="GG_Kitchen_Type01_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type01_Cabinets.unity3d?GG_Kitchen_Type01_CabinetLow05.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type01_CabinetLow06">
+        <property name="LootList" value="1"/>
+      <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type01_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type01_Cabinets.unity3d?GG_Kitchen_Type01_CabinetLow06.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type01_CabinetTop01">
+      <property name="Extends" value="GG_Kitchen_Type01_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type01_Cabinets.unity3d?GG_Kitchen_Type01_CabinetTop01.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type01_CabinetTop02">
+        <property name="LootList" value="1"/>
+     <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type01_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type01_Cabinets.unity3d?GG_Kitchen_Type01_CabinetTop02.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type01_CabinetTop03">
+      <property name="Extends" value="GG_Kitchen_Type01_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type01_Cabinets.unity3d?GG_Kitchen_Type01_CabinetTop03.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type01_CabinetTop04">
+      <property name="Extends" value="GG_Kitchen_Type01_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type01_Cabinets.unity3d?GG_Kitchen_Type01_CabinetTop04.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type01_CabinetTop05">
+        <property name="LootList" value="1"/>
+    <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type01_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type01_Cabinets.unity3d?GG_Kitchen_Type01_CabinetTop05.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+    
+  
+  
+  
+
+    <block name="GG_Kitchen_Type02_CabinetLow01_Block_Variant">
+      <property name="Extends" value="flagstoneBlock"/>
+      <property name="CustomIcon" value="GG_Kitchen_Type02_CabinetLow01"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="DescriptionKey" value="GG_Kitchen_Type02_CabinetLow01_Block_VariantDesc"/>
+      <property name="ItemTypeIcon" value="all_blocks"/>
+      <property name="SelectAlternates" value="true" />
+      <property name="PlaceAltBlockValue" value="GG_Kitchen_Type02_CabinetLow01,GG_Kitchen_Type02_CabinetLow02,GG_Kitchen_Type02_CabinetLow03,GG_Kitchen_Type02_CabinetLow04,GG_Kitchen_Type02_CabinetLow05,GG_Kitchen_Type02_CabinetLow06,GG_Kitchen_Type02_CabinetLow07,GG_Kitchen_Type02_CabinetLow08,GG_Kitchen_Type02_CabinetTop01,GG_Kitchen_Type02_CabinetTop02,GG_Kitchen_Type02_CabinetTop03,GG_Kitchen_Type02_CabinetTop04,GG_Kitchen_Type02_CabinetTop05"/>
+    </block>
+
+    <block name="GG_Kitchen_Type02_CabinetLow01_Master_No_Upgrade">
+      <!-- was stoneToAdobeMaster -->
+      <property name="Group" value="Building,advBuilding"/>
+
+                    <property name="MaxDamage" value="1000"/>
+      <property name="Material" value="MwoodReinforced"/>
+      <!-- 500 -->
+      <!-- <property name="ImposterExchange" value="imposterBlock" param1="63"/> -->
+      <property name="CreativeMode" value="None"/>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5"/>
+      </property>
+      <drop event="Harvest" name="resourceWood" count="2" tag="allHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <property name="FilterTags" value="fbuilding,fbrick"/>
+      <property name="SortOrder1" value="40a0"/>
+      <property name="SortOrder2" value="0002"/>
+    </block>
+
+    <block name="GG_Kitchen_Type02_CabinetLow01_Master">
+      <!-- was stoneToAdobeMaster -->
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master_No_Upgrade"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="DescriptionKey" value="GG_Kitchen_Type02_CabinetDesc"/>
+    </block>
+
+    <block name="GG_Kitchen_Type02_CabinetLow01">
+        <property name="LootList" value="1"/>
+     <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type02_Cabinets.unity3d?GG_Kitchen_Type02_CabinetLow01.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type02_CabinetLow02">
+        <property name="LootList" value="1"/>
+     <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type02_Cabinets.unity3d?GG_Kitchen_Type02_CabinetLow02.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type02_CabinetLow03">
+        <property name="LootList" value="1"/>
+      <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type02_Cabinets.unity3d?GG_Kitchen_Type02_CabinetLow03.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type02_CabinetLow04">
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type02_Cabinets.unity3d?GG_Kitchen_Type02_CabinetLow04.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type02_CabinetLow05">
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type02_Cabinets.unity3d?GG_Kitchen_Type02_CabinetLow05.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type02_CabinetLow06">
+        <property name="LootList" value="1"/>
+      <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type02_Cabinets.unity3d?GG_Kitchen_Type02_CabinetLow06.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+    
+        <block name="GG_Kitchen_Type02_CabinetLow07">
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type02_Cabinets.unity3d?GG_Kitchen_Type02_CabinetLow07.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+    
+        <block name="GG_Kitchen_Type02_CabinetLow08">
+            <property name="LootList" value="1"/>
+          <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type02_Cabinets.unity3d?GG_Kitchen_Type02_CabinetLow08.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type02_CabinetTop01">
+        <property name="LootList" value="1"/>
+     <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type02_Cabinets.unity3d?GG_Kitchen_Type02_CabinetTop01.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type02_CabinetTop02">
+        <property name="LootList" value="1"/>
+      <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type02_Cabinets.unity3d?GG_Kitchen_Type02_CabinetTop02.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type02_CabinetTop03">
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type02_Cabinets.unity3d?GG_Kitchen_Type02_CabinetTop03.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type02_CabinetTop04">
+        <property name="LootList" value="1"/>
+      <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type02_Cabinets.unity3d?GG_Kitchen_Type02_CabinetTop04.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Type02_CabinetTop05">
+        <property name="LootList" value="1"/>
+      <property name="Class" value="SecureLoot"/>
+      <property name="Extends" value="GG_Kitchen_Type02_CabinetLow01_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Type02_Cabinets.unity3d?GG_Kitchen_Type02_CabinetTop05.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+  
+  
+  
+
+
+   <block name="GG_Kitchen_Bell_Block_Variant">
+      <property name="Extends" value="flagstoneBlock"/>
+      <property name="CustomIcon" value="GG_Kitchen_Type02_CabinetLow01"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="DescriptionKey" value="GG_Kitchen_Bell_Block_VariantDesc"/>
+      <property name="ItemTypeIcon" value="all_blocks"/>
+      <property name="SelectAlternates" value="true" />
+      <property name="PlaceAltBlockValue" value="GG_Kitchen_Bell01,GG_Kitchen_Bell02,GG_Kitchen_Bell03,GG_Kitchen_Bell04,GG_Kitchen_Bell05"/>
+    </block>
+
+    <block name="GG_Kitchen_Bell_Block_No_Upgrade">
+      <!-- was stoneToAdobeMaster -->
+      <property name="Group" value="Building,advBuilding"/>
+
+      <property name="MaxDamage" value="1000"/>
+      <property name="Material" value="Mmetal"/>
+      <!-- 500 -->
+      <!-- <property name="ImposterExchange" value="imposterBlock" param1="63"/> -->
+      <property name="CreativeMode" value="None"/>
+      <property class="RepairItems">
+        <property name="resourceScrapIron" value="5"/>
+      </property>
+      <drop event="Harvest" name="resourceScrapIron" count="2" tag="allHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <property name="FilterTags" value="fbuilding,fbrick"/>
+      <property name="SortOrder1" value="40a0"/>
+      <property name="SortOrder2" value="0002"/>
+    </block>
+
+    <block name="GG_Kitchen_Bell_Block_Master">
+      <!-- was stoneToAdobeMaster -->
+      <property name="Extends" value="GG_Kitchen_Bell_Block_No_Upgrade"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="DescriptionKey" value="GG_Kitchen_Bell_Block_VariantDesc"/>
+    </block>
+
+    <block name="GG_Kitchen_Bell01">
+      <property name="Extends" value="GG_Kitchen_Bell_Block_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Bell.unity3d?GG_Kitchen_Bell01.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Bell02">
+      <property name="Extends" value="GG_Kitchen_Bell_Block_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Bell.unity3d?GG_Kitchen_Bell02.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Bell03">
+      <property name="Extends" value="GG_Kitchen_Bell_Block_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Bell.unity3d?GG_Kitchen_Bell03.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Bell04">
+      <property name="Extends" value="GG_Kitchen_Bell_Block_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Bell.unity3d?GG_Kitchen_Bell04.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+
+    <block name="GG_Kitchen_Bell05">
+      <property name="Extends" value="GG_Kitchen_Bell_Block_Master"/>
+      <property name="SortOrder2" value="0001"/>
+      <!-- SortShape -->
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/GG_Kitchen_Bell.unity3d?GG_Kitchen_Bell05.prefab" />
+      <property name="DisplayType" value="blockMulti"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+    </block>
+  </append>
+
+
+</Configs>

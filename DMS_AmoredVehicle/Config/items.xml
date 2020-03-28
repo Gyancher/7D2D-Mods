@@ -1,0 +1,47 @@
+<configs>
+	<append xpath="/items">
+		<item name="vehicleAmoredVehicleDMSchassis">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="AmoredDMSchassis"/>
+			<property name="DescriptionKey" value="vehicleAmoredVehicleDMSchassisDesc"/>
+			<property name="EconomicValue" value="100"/>
+		</item>
+		
+		<item name="vehicleAmoredVehicleDMSaccessories">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="AmoredDMSaccessories"/>
+			<property name="DescriptionKey" value="vehicleAmoredVehicleDMSaccessoriesDesc"/>
+			<property name="EconomicValue" value="100"/>
+		</item>
+		
+		<item name="vehicleAmoredWinterDMSplaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="AmoredWinterDMS"/>
+			<property name="DescriptionKey" value="vehicleAmoredWinterDMSplaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/AmoredVehicleDMS.unity3d?AmoredWinterDMS"/>
+			<property name="EconomicValue" value="100000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleAmoredWinterDMS"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="29000,30000" tier="1,6"/>
+			</effect_group>
+		</item>	
+
+		<item name="vehicleAmoredSummerDMSplaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="AmoredSummerDMS"/>
+			<property name="DescriptionKey" value="vehicleAmoredSummerDMSplaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/AmoredVehicleDMS.unity3d?AmoredSummerDMS"/>
+			<property name="EconomicValue" value="100000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleAmoredSummerDMS"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="29000,30000" tier="1,6"/>
+			</effect_group>
+		</item>		
+	 </append>
+</configs>

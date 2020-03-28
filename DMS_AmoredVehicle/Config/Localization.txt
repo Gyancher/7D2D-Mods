@@ -1,0 +1,11 @@
+Key,Source,Context,Changes,English
+vehicleAmoredVehicleDMSchassis,items,Part,EnChanged,AmoredVehicleDMS Chassis,,,,,
+vehicleAmoredVehicleDMSchassisDesc,items,Part,EnChanged,Parts needed to craft the DMS Amored Vehicle. Grease Monkey level 5 required.,,,,,
+vehicleAmoredVehicleDMSaccessories,items,Part,EnChanged,AmoredVehicleDMS Accessories,,,,,
+vehicleAmoredVehicleDMSaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the DMS Amored Vehicle.,,,,,
+vehicleAmoredSummerDMS,vehicles,vehicle,new,AmoredVehicleDMS,,,,,
+vehicleAmoredSummerDMSplaceable,vehicles,item,EnChanged,AmoredSummerDMS,,,,,
+vehicleAmoredSummerDMSplaceableDesc,vehicles,item,EnChanged,DMS Amored Vehicle Summer.,,,,,
+vehicleAmoredWinterDMS,vehicles,vehicle,new,AmoredVehicleDMS,,,,,
+vehicleAmoredWinterDMSplaceable,vehicles,item,EnChanged,AmoredWinterDMS,,,,,
+vehicleAmoredWinterDMSplaceableDesc,vehicles,item,EnChanged,DMS Amored Vehicle Winter.,,,,,

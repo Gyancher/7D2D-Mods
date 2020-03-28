@@ -1,0 +1,35 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="vehicleAmoredVehicleDMSchassis" count="1" craft_area="workbench" craft_time="4600" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceSpring" count="30"/>
+		<ingredient name="resourceScrapPolymers" count="450"/>
+	        <ingredient name="resourceHeadlight" count="12"/>
+	        <ingredient name="resourceMechanicalParts" count="150"/>
+	        <ingredient name="resourceForgedSteel" count="850"/>
+		</recipe>
+		
+		<recipe name="vehicleAmoredVehicleDMSaccessories" count="1" craft_area="workbench" craft_time="5000" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceScrapBrass" count="2000"/>
+	        <ingredient name="resourceElectricParts" count="150"/>
+	        <ingredient name="resourceOil" count="30"/>
+	        <ingredient name="resourceMetalPipe" count="55"/>
+	        <ingredient name="resourceForgedIron" count="1150"/>
+		</recipe>
+	
+		<recipe name="vehicleAmoredWinterDMSplaceable" count="1" craft_area="workbench" craft_time="1800" tags="workbenchCrafting">
+		<ingredient name="resourceMilitaryFiber" count="29"/>
+		<ingredient name="vehicleAmoredVehicleDMSaccessories" count="1"/>
+		<ingredient name="vehicleAmoredVehicleDMSchassis" count="1"/>
+		<ingredient name="generatorbank" count="1"/>
+	        <ingredient name="batterybank" count="1"/>
+		</recipe>
+
+		<recipe name="vehicleAmoredSummerDMSplaceable" count="1" craft_area="workbench" craft_time="1800" tags="workbenchCrafting">
+		<ingredient name="resourceMilitaryFiber" count="29"/>
+		<ingredient name="vehicleAmoredVehicleDMSaccessories" count="1"/>
+		<ingredient name="vehicleAmoredVehicleDMSchassis" count="1"/>
+		<ingredient name="generatorbank" count="1"/>
+	        <ingredient name="batterybank" count="1"/>
+		</recipe>					
+	</append>
+ </configs>
